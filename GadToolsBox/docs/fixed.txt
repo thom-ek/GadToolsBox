@@ -1,0 +1,24 @@
+Poprawione:
+- jesli nie ma preferencji otwiera sie requester do wyboru ekranu
+- nie zwiesza sie przy objects/strings/delete
+- tapedeck.gadget jest juz dobrze rysowany
+- po kliknieciu na objects/strings/add dodany element listy jest
+automatycznie zaznaczony (wczesniej tez byl ale nie bylo to
+odzwierciedlone na ekranie :-)
+- teraz nie da sie wprowadzic ujemnej pozycji dla obiektu
+- dodana opcja objects/window/refresh. Jak sama nazwa wskazuje opcja ta
+sluzy od odswierzenia zawartosci okna i jego ramek.
+- zmiana pomiedzy glebokoscia a iloscia kolorow w gadzecie palette
+powoduje konwersje pomiedzy tymi wartosciami.
+- file requestery maja teraz odpowiednie podpisy
+- poprawione okno about dla dziwnych czcionek
+- poprawiona edycja strzalek w SCROLLER_KIND.
+- SCROLLER_KIND i SLIDER_KIND maja wyrzucona flage NewLook (skad ona sie
+tam wziela?) Jesli tworzyliscie te gadzety to mozliwe, ze bedziecie
+musieli je skasowac i wstawic jeszcze raz. Inaczej flaga Freedom moze nie
+byc zapamietana - nie sprawdzalem.
+
+Bîëdy:
+- po kliknieciu i skasowaniu na pustym polu w strings mozna dalej
+zaznaczac jakas glupote.
+- przy zmianie wymiarow gadgetow ich wartosci nie sa updatowane w realtime'ie

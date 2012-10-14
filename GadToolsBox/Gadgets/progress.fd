@@ -1,0 +1,4 @@
+##base _ProgressBase
+##bias 30
+GetProgressClass()
+##end

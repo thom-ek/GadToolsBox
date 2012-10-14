@@ -1,0 +1,79 @@
+/****** smartbitmap.image/smartbitmap.image ******************************
+*
+*   NAME   
+*        smartbitmap.image -- create image from bitmap (V39)
+*
+*   FUNCTION
+*        The smartbitmap class provides capability to generate image
+*        compatible object with a given BitMap structure and palette.
+*        Source bitmap can be standard amiga bitmap or CyberGraphX bitmap.
+*        When image object is created, source bitmap is converted to
+*        destination bitmap which can be planar, chunky or nonpalette (eg.
+*        hicolor and truecolor).
+*
+*        Palette structure is defined as:
+*            struct SmartBitMapIRGB
+*            {
+*              ULONG I,R,G,B;
+*            };
+*
+*        I - is allocated pen number, if set to -1 image class will
+*            allocate it for you.
+*        R, G, B - 32 bit color values.
+*
+*   TAGS
+*        IA_Data (struct BitMap *)
+*        SMBM_BitMap (struct BitMap *) - Pointer to bitmap.
+*            This tag is required. Applicability is (I). (V39)
+*
+*        SMBM_Border (BOOL) - Draw raised border around image
+*            Default for this tag is FALSE. Applicability is (I). (V39)
+*
+*        SMBM_SelBorder (BOOL) - Draw selected border around selected
+*            image.
+*            Default for this tag is FALSE. Applicability is (I). (V39)
+*
+*        SMBM_Palette (struct SmartBitMapIRGB *) - Palette of bitmap and
+*            optionally allocated pens. Only required for pallette based
+*            bitmaps. This tag is mutually exclusive with SMBM_Pens.
+*            Default for this tag is NULL. Applicability is (I). (V39).
+*
+*        IA_Pens (UWORD *)
+*        SMBM_Pens (UWORD *) - Table of allocated pens. Only required for
+*            palette based bitmaps. This tag is mutually exclusive with
+*            SMBM_Palette.
+*            Default for this tag is NULL. Applicability is (I). (V39)
+*
+*        SMBM_Screen (struct Screen *) - Screen on which bitmaps will be
+*            displayed.
+*            This tag is requires. Applicability is (I). (V39)
+*
+*  SEE ALSO
+*        intuition/imageclass.h
+*
+*****************************************************************************
+*
+*/
+/****** smartbitmap.image/GetSmartBitMapClass *************************
+*
+*   NAME   
+*        GetSmartBitMapClass -- get public class of smartbitmap (V39)
+*
+*   SYNOPSIS
+*        smartbitmap_class = GetSmartBitMapClass();
+*        D0
+*
+*        Class *GetSmartBitMapClass( void );
+*
+*   FUNCTION
+*        Obtains pointer to smartbitmap.image class for use with
+*        intuition.library/NewObject().
+*
+*   RESULT
+*        smartbitmap_class - pointer to smartbitmap class
+*
+*   SEE ALSO
+*
+*****************************************************************************
+*
+*/

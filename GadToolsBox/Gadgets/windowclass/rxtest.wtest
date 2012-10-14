@@ -1,0 +1,10 @@
+/*
+** Test rexx
+*/
+
+ADDRESS 'WNDTEST.1'
+OPTIONS RESULTS
+
+test_about
+SAY RESULT
+test_help 'main'

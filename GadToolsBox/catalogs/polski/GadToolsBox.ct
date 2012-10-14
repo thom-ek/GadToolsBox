@@ -1,0 +1,2766 @@
+## version $VER: GadToolsBox.catalog 3.0 (31.05.98)
+## language Polski
+## codeset 0
+;
+; GadToolsBox locale translation file
+;
+MSG_MainProject_MTITLE
+\000\000Projekt
+;Project
+;
+MSG_MainProjectNew_MITEM
+N\000Nowy
+;New
+;
+MSG_MainProjectOpen_MITEM
+O\000Otwórz...
+;Open...
+;
+MSG_MainProjectSave_MITEM
+S\000Zachowaj
+;Save
+;
+MSG_MainProjectSaveAs_MITEM
+A\000Zachowaj jako...
+;Save As...
+;
+MSG_MainProjectSaveSource_MITEM
+W\000Zachowaj úródîo...
+;Save Source...
+;
+MSG_MainProjectPreferences_MITEM
+P\000Preferencje...
+;Preferences...
+;
+MSG_MainProjectAbout_MITEM
+?\000O programie...
+;About...
+;
+MSG_MainProjectQuit_MITEM
+Q\000Wyjdú
+;Quit
+;
+MSG_MainEdit_MTITLE
+\000\000Edycja
+;Edit
+;
+MSG_MainEditUndo_MITEM
+U\000Cofnij
+;Undo
+;
+MSG_MainEditCut_MITEM
+X\000Wytnij
+;Cut
+;
+MSG_MainEditCopy_MITEM
+C\000Skopiuj
+;Copy
+;
+MSG_MainEditPaste_MITEM
+V\000Wklej
+;Paste
+;
+MSG_MainEditClear_MITEM
+B\000Wyczyôê
+;Clear
+;
+MSG_MainEditSelectAll_MITEM
+A\000Zaznacz wszystko
+;Select All
+;
+MSG_MainEditGrid_MITEM
+G\000Siatka...
+;Grid...
+;
+MSG_MainEditAlign_MITEM
+\000\000Wyrównanie
+;Align
+;
+MSG_MainEditAlignToLeft_MSUB
+\000\000Lewy
+;Left
+;
+MSG_MainEditAlignToHCenter_MSUB
+\000\000Centrowanie szerokoôci
+;Width center
+;
+MSG_MainEditAlignToRight_MSUB
+\000\000Prawy
+;Right
+;
+MSG_MainEditAlignToTop_MSUB
+\000\000Góra
+;Top
+;
+MSG_MainEditAlignToVCenter_MSUB
+\000\000Centrowanie wysokoôci
+;Height center
+;
+MSG_MainEditAlignToBottom_MSUB
+\000\000Dóî
+;Bottom
+;
+MSG_MainEditClone_MITEM
+\000\000Kopiowanie
+;Clone
+;
+MSG_MainEditCloneWidth_MSUB
+\000\000Szerokoôci
+;Width
+;
+MSG_MainEditCloneHeight_MSUB
+\000\000Wysokoôci
+;Height
+;
+MSG_MainEditCloneBoth_MSUB
+\000\000Obu
+;Both
+;
+MSG_MainEditSpread_MITEM
+\000\000Rozîoûenie
+;Spread
+;
+MSG_MainEditSpreadHoriz_MSUB
+\000\000Poziome
+;Horizontal
+;
+MSG_MainEditSpreadVertical_MSUB
+\000\000Pionowe
+;Vertical
+;
+MSG_MainObject_MTITLE
+\000\000Obiekty
+;Objects
+;
+MSG_MainObjWindow_MITEM
+\000\000Okno
+;Window
+;
+MSG_MainObjWindowNew_MSUB
+\000\000Nowe...
+;New...
+;
+MSG_MainObjWindowClose_MSUB
+\000\000Zamknij
+;Close
+;
+MSG_MainObjWindowDelete_MSUB
+\000\000Skasuj
+;Delete
+;
+MSG_MainObjWindowRefresh_MSUB
+\000\000Odôwieû
+;Refresh
+;
+MSG_MainObjMenu_MITEM
+\000\000Menu
+;Menu
+;
+MSG_MainObjMenuNew_MSUB
+\000\000Nowe...
+;New...
+;
+MSG_MainObjMenuClose_MSUB
+\000\000Zamknij
+;Close
+;
+MSG_MainObjMenuDelete_MSUB
+\000\000Skasuj
+;Delete
+;
+MSG_MainObjImage_MITEM
+\000\000Obrazek
+;Image
+;
+MSG_MainObjImageNew_MSUB
+\000\000Nowy...
+;New...
+;
+MSG_MainObjImageClose_MSUB
+\000\000Zamknij
+;Close
+;
+MSG_MainObjImageDelete_MSUB
+\000\000Skasuj
+;Delete
+;
+MSG_MainObjStrings_MITEM
+\000\000Teksty
+;Strings
+;
+MSG_MainObjStringsOpen_MSUB
+\000\000Otwórz
+;Open
+;
+MSG_MainObjStringsClose_MSUB
+\000\000Zamknij
+;Close
+;
+MSG_MainObjScreen_MITEM
+\000\000Ekran
+;Screen
+;
+MSG_MainObjScreenOpen_MSUB
+\000\000Otwórz
+;Open
+;
+MSG_MainObjScreenClose_MSUB
+\000\000Zamknij
+;Close
+;
+MSG_MainObjVersion_MITEM
+\000\000Wersja
+;Version
+;
+MSG_MainObjVersionOpen_MSUB
+\000\000Otwórz
+;Open
+;
+MSG_MainObjVersionClose_MSUB
+\000\000Zamknij
+;Close
+;
+MSG_MainWindow_MTITLE
+\000\000Okna
+;Windows
+;
+MSG_MainWindowProperties_MITEM
+\000\000Wîaôciwoôci
+;Properties
+;
+MSG_MainWindowObjects_MITEM
+\000\000Obiekty
+;Objects
+;
+MSG_MainWindowStatus_MITEM
+\000\000Status
+;Status
+;
+MSG_MainWindowHideAll_MITEM
+\000\000Schowaj wszystkie
+;Hide All
+;
+MSG_SCREENTITLE_SCR
+GadToolsBox v3 (GTB.%ld)
+;GadToolsBox v3 (GTB.%ld)
+;
+MSG_PGBO_LABEL_GAD
+_Identyfikator:
+;_Label:
+;
+MSG_PGBO_X_GAD
+
+;
+;
+MSG_PGBO_Y_GAD
+
+;
+;
+MSG_PGBO_WIDTH_GAD
+
+;
+;
+MSG_PGBO_HEIGHT_GAD
+
+;
+;
+MSG_PGBO_REL_X_GAD
+Poz _X:
+;_X Pos:
+;
+MSG_PGBO_REL_X_L0_GAD
+Lewy
+;Left
+;
+MSG_PGBO_REL_X_L1_GAD
+Prawy
+;Right
+;
+MSG_PGBO_REL_Y_GAD
+Poz _Y:
+;_Y Pos:
+;
+MSG_PGBO_REL_Y_L0_GAD
+Górny
+;Top
+;
+MSG_PGBO_REL_Y_L1_GAD
+Dolny
+;Bottom
+;
+MSG_PGBO_REL_W_GAD
+_Szer.:
+;_Width:
+;
+MSG_PGBO_REL_W_L0_GAD
+Normalna
+;Normal
+;
+MSG_PGBO_REL_W_L1_GAD
+Okno
+;Window
+;
+MSG_PGBO_REL_H_GAD
+_Wysokoôê:
+;_Height:
+;
+MSG_PGBO_REL_H_L0_GAD
+Normalna
+;Normal
+;
+MSG_PGBO_REL_H_L1_GAD
+Okno
+;Window
+;
+MSG_ABOUT_OK_GAD
+Ok
+;Ok
+;
+MSG_PG_BUTT_FLAGS_IMMEDIATE_GAD
+_Immediate:
+;_Immediate:
+;
+MSG_PG_BUTT_FLAGS_UNDERSCORE_GAD
+_Podkreôlenie:
+;_Underscore:
+;
+MSG_PG_BUTT_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_GAD
+Typ podpisu:
+;Title Type:
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_L0_GAD
+Tekst
+;Text
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_L1_GAD
+Pasek narzëdzi
+;Toolbar
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_L2_GAD
+Rysunek
+;Image
+;
+MSG_PG_BUTT_FLAGS_TOGGLE_GAD
+_Toggle:
+;_Toggle:
+;
+MSG_PG_CBOX_FLAGS_SCALED_GAD
+_Skalowanie:
+;_Scaled:
+;
+MSG_PG_CBOX_FLAGS_SCALED_L0_GAD
+Brak
+;None
+;
+MSG_PG_CBOX_FLAGS_SCALED_L1_GAD
+Normalne
+;Normal
+;
+MSG_PG_CBOX_FLAGS_SCALED_L2_GAD
+Adaptacyjne
+;Adaptive
+;
+MSG_PG_CBOX_FLAGS_CHECKED_GAD
+_Zaznaczony:
+;_Checked:
+;
+MSG_PG_CBOX_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_CBOX_FLAGS_UNDERSCORE_GAD
+_Podkreôlony:
+;_Underscore:
+;
+MSG_PG_CBOX_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_CWHL_FLAGS_MAXPENS_GAD
+Maks.piór:
+;MaxPens:
+;
+MSG_PG_CWHL_FLAGS_ABBRV_GAD
+Abbrv:
+;Abbrv:
+;
+MSG_PG_CWHL_FLAGS_GSLIDER_GAD
+Grad-Slider:
+;Grad-Slider:
+;
+MSG_PG_CWHL_FLAGS_BEVELBOX_GAD
+Ramka:
+;BevelBox:
+;
+MSG_PG_CWHL_FLAGS_DISABLED_GAD
+Wyîâczony:
+;Disabled:
+;
+MSG_PG_CWHL_FLAGS_FOLLOWMOUSE_GAD
+FollowMouse:
+;FollowMouse:
+;
+MSG_PG_CYCE_FLAGS_HIGHLABEL_GAD
+Podôwietlony:
+;Highlabel:
+;
+MSG_PG_CYCE_FLAGS_UNDERSCORE_GAD
+Pokreôlony:
+;Underscore:
+;
+MSG_PG_CYCE_FLAGS_DISABLED_GAD
+Wyîâczony:
+;Disabled:
+;
+MSG_PG_LISTS_EDIT_GAD
+
+;
+;
+MSG_PG_LISTS_ACTIVE_GAD
+
+;
+;
+MSG_PG_LISTS_LIST_GAD
+
+;
+;
+MSG_PG_LISTS_UP_GAD
+_Góra
+;_Up
+;
+MSG_PG_LISTS_DOWN_GAD
+D_óî
+;D_own
+;
+MSG_PG_LISTS_ADD_GAD
+_Dodaj
+;_Add
+;
+MSG_PG_LISTS_DEL_GAD
+_Skasuj
+;_Del
+;
+MSG_PG_DTYP_FLAGS_OBJECT_GAD
+_Plik:
+;_File:
+;
+MSG_PG_DTYP_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_GRSL_FLAGS_KNOBPIXELS_GAD
+_Pixele suw.:
+;_Knob Pixels:
+;
+MSG_PG_GRSL_FLAGS_MAXVAL_GAD
+_MaxWart:
+;_MaxVal:
+;
+MSG_PG_GRSL_FLAGS_CURVAL_GAD
+_AktWart:
+;_CurVal:
+;
+MSG_PG_GRSL_FLAGS_SKIPVAL_GAD
+_OpuôêWart:
+;_SkipVal:
+;
+MSG_PG_GRSL_FLAGS_PENS_GAD
+_Pióra:
+;_Pens:
+;
+MSG_PG_GRSL_FLAGS_FREEDOM_GAD
+_Poîoûenie:
+;_Freedom:
+;
+MSG_PG_GRSL_FLAGS_FREEDOM_L0_GAD
+Poziome
+;Horizontal
+;
+MSG_PG_GRSL_FLAGS_FREEDOM_L1_GAD
+Pionowe
+;Vertical
+;
+MSG_PG_GRSL_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_INTR_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_INTR_FLAGS_UNDERSCORE_GAD
+_Podkreôlony;
+;_Underscore:
+;
+MSG_PG_INTR_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_INTR_FLAGS_TABCYCLE_GAD
+_TabCycle:
+;_TabCycle:
+;
+MSG_PG_INTR_FLAGS_REPLACEMODE_GAD
+_Tryb zastëpowania:
+;_ReplaceMode:
+;
+MSG_PG_INTR_FLAGS_EXITHELP_GAD
+_Wyjôcie Help:
+;_ExitHelp:
+;
+MSG_PG_INTR_VAR_MAXCHARS_GAD
+_MaxZnakow:
+;_MaxChars:
+;
+MSG_PG_INTR_VAR_NUMBER_GAD
+_Numer:
+;_Number:
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_GAD
+_Justowanie:
+;_Justification:
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_L0_GAD
+Lewy
+;Left
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_L1_GAD
+Prawy
+;Right
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_L2_GAD
+Wycentrowany
+;Center
+;
+MSG_PG_LVIE_FLAGS_ARROWS_GAD
+_Strzaîki:
+;_Arrows:
+;
+MSG_PG_LVIE_FLAGS_SPACING_GAD
+_Odstëpy:
+;S_pacing:
+;
+MSG_PG_LVIE_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_LVIE_FLAGS_UNDERSCORE_GAD
+_Podkreôlony:
+;_Underscore:
+;
+MSG_PG_LVIE_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_LVIE_FLAGS_READONLY_GAD
+_Tylko odczyt:
+;_ReadOnly:
+;
+MSG_PG_LVIE_FLAGS_SHOWSELECTED_GAD
+_PokaûZaznaczony:
+;_ShowSelected:
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_GAD
+
+;
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_L0_GAD
+Brak
+;None
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_L1_GAD
+Normalne
+;Normal
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_L2_GAD
+Adaptacyjne
+;Adaptive
+;
+MSG_PG_MX_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_MX_FLAGS_UNDERSCORE_GAD
+_Podkreôlony:
+;_Underscore:
+;
+MSG_PG_MX_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_MX_FLAGS_SCALED_GAD
+_Skalowanie:
+;_Scaled:
+;
+MSG_PG_MX_FLAGS_SCALED_L0_GAD
+Brak
+;None
+;
+MSG_PG_MX_FLAGS_SCALED_L1_GAD
+Normalne
+;Normal
+;
+MSG_PG_MX_FLAGS_SCALED_L2_GAD
+Adaptacyjne
+;Adaptive
+;
+MSG_PG_MX_FLAGS_PLACEMENT_GAD
+_Poîoûenie:
+;_Placement:
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L0_GAD
+Lewe
+;Left
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L1_GAD
+Prawe
+;Right
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L2_GAD
+Powyûej
+;Above
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L3_GAD
+Poniûej
+;Below
+;
+MSG_PG_MX_FLAGS_SPACING_GAD
+_Odstëp:
+;Sp_acing:
+;
+MSG_PG_NUMB_FLAGS_FORMAT_GAD
+_Format:
+;_Format:
+;
+MSG_PG_NUMB_FLAGS_DEFAULT_GAD
+D_omyôlnie:
+;D_efault:
+;
+MSG_PG_NUMB_FLAGS_MAXNUMLEN_GAD
+_MaksDlug:
+;_MaxNumLen:
+;
+MSG_PG_NUMB_FLAGS_DISABLED_GAD
+_Wyîâczone:
+;_Disabled:
+;
+MSG_PG_NUMB_FLAGS_HIGHLABEL_GAD
+_Podkreôlenie:
+;_Highlabel:
+;
+MSG_PG_NUMB_FLAGS_BORDER_GAD
+_Ramka:
+;_Border:
+;
+MSG_PG_NUMB_FLAGS_CLIPPED_GAD
+_Wyciëte:
+;_Clipped:
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_GAD
+_Justowanie:
+;_Justification:
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_L0_GAD
+Lewy
+;Left
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_L1_GAD
+Prawy
+;Right
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_L2_GAD
+Wycentrowany
+;Center
+;
+MSG_PGGT_LABEL_GAD
+_Identyfikator:
+;_Label:
+;
+MSG_PGGT_TITLE_GAD
+_Tytuî:
+;_Title:
+;
+MSG_PGGT_X_GAD
+
+;
+;
+MSG_PGGT_Y_GAD
+
+;
+;
+MSG_PGGT_WIDTH_GAD
+
+;
+;
+MSG_PGGT_HEIGHT_GAD
+
+;
+;
+MSG_PGGT_PLACEMENT_GAD
+_Poîoûenie:
+;_Placement:
+;
+MSG_PGGT_PLACEMENT_L0_GAD
+W
+;In
+;
+MSG_PGGT_PLACEMENT_L1_GAD
+Lewy
+;Left
+;
+MSG_PGGT_PLACEMENT_L2_GAD
+Prawy
+;Right
+;
+MSG_PGGT_PLACEMENT_L3_GAD
+Powyûej
+;Above
+;
+MSG_PGGT_PLACEMENT_L4_GAD
+Poniûej
+;Below
+;
+MSG_PGGT_REL_X_GAD
+Poz _X:
+;_X Pos:
+;
+MSG_PGGT_REL_X_L0_GAD
+Lewy
+;Left
+;
+MSG_PGGT_REL_X_L1_GAD
+Prawy
+;Right
+;
+MSG_PGGT_REL_Y_GAD
+Poz _Y:
+;_Y Pos:
+;
+MSG_PGGT_REL_Y_L0_GAD
+Góra
+;Top
+;
+MSG_PGGT_REL_Y_L1_GAD
+Dóî
+;Bottom
+;
+MSG_PGGT_REL_W_GAD
+_Szer.:
+;_Width:
+;
+MSG_PGGT_REL_W_L0_GAD
+Normalna
+;Normal
+;
+MSG_PGGT_REL_W_L1_GAD
+Okno
+;Window
+;
+MSG_PGGT_REL_H_GAD
+_Wysokoôê:
+;_Height:
+;
+MSG_PGGT_REL_H_L0_GAD
+Normalna
+;Normal
+;
+MSG_PGGT_REL_H_L1_GAD
+Okno
+;Window
+;
+MSG_PG_PAGE_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_PAGE_FLAGS_UNDERSCORE_GAD
+_Podkreôlenie:
+;_Underscore:
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_GAD
+_Wyglâd:
+;_Layout:
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_L0_GAD
+Prosty
+;Simple
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_L1_GAD
+Styl MUI
+;MUI Style
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_L2_GAD
+GadTools
+;GadTools
+;
+MSG_PG_PAGE_FLAGS_STYLE_GAD
+_Styl:
+;_Style:
+;
+MSG_PG_PAGE_FLAGS_STYLE_L0_GAD
+Normalny
+;Normal
+;
+MSG_PG_PAGE_FLAGS_STYLE_L1_GAD
+Podôwietlony
+;Hilight
+;
+MSG_PG_PAGE_FLAGS_STYLE_L2_GAD
+Cieniowany
+;Shadow
+;
+MSG_PG_PAGE_LISTS_LIST_GAD
+
+;
+;
+MSG_PG_PAGE_LISTS_ADD_GAD
+< _Dodaj
+;< _Add
+;
+MSG_PG_PAGE_LISTS_DEL_GAD
+> _Skasuj
+;> _Del
+;
+MSG_PG_PAGE_LISTS_UP_GAD
+_Góra
+;_Up
+;
+MSG_PG_PAGE_LISTS_DOWN_GAD
+D_óî
+;D_own
+;
+MSG_PG_PAGE_LISTS_WINDOWS_GAD
+
+;
+;
+MSG_PG_PAGE_LISTS_ACTIVE_GAD
+
+;
+;
+MSG_PG_PALT_FLAGS_COLOR_GAD
+
+;
+;
+MSG_PG_PALT_FLAGS_OFFSET_GAD
+_Odstëp:
+;_Offset:
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_VAR_GAD
+
+;
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_GAD
+:
+;:
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_L0_GAD
+Brak
+;None
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_L1_GAD
+Szerokoôê
+;Width
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_L2_GAD
+Wysokoôê
+;Height
+;
+MSG_PG_PALT_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_PALT_FLAGS_UNDERSCORE_GAD
+_Podkreôlenie:
+;_Underscore:
+;
+MSG_PG_PALT_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_PALT_FLAGS_TYPE_GAD
+:
+;:
+;
+MSG_PG_PALT_FLAGS_TYPE_L0_GAD
+Gîëbokoôê:
+;Depth
+;
+MSG_PG_PALT_FLAGS_TYPE_L1_GAD
+Kolory:
+;Colors
+;
+MSG_PG_PALT_FLAGS_TYPE_L2_GAD
+Ekran
+;Screen
+;
+MSG_PG_PUPM_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_PUPM_FLAGS_NEWLOOK_GAD
+_Nowy Wyglâd;
+;_NewLook:
+;
+MSG_PG_PRGR_FLAGS_MAX_GAD
+_Maks:
+;_Max:
+;
+MSG_PG_PRGR_FLAGS_CURRENT_GAD
+_Aktualny:
+;_Current:
+;
+MSG_PG_PRGR_FLAGS_FORMAT_GAD
+_Format:
+;_Format:
+;
+MSG_PG_PRGR_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_PRGR_FLAGS_BORDER_GAD
+_Ramka:
+;_Border:
+;
+MSG_PG_PRGR_FLAGS_PERCENTS_GAD
+Wyôwietl w _%:
+;Show in _%:
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_GAD
+_Poîoûenie:
+;_Placement:
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L0_GAD
+W
+;In
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L1_GAD
+Lewy
+;Left
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L2_GAD
+Prawy
+;Right
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L3_GAD
+Powyûej
+;Above
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L4_GAD
+Poniûej
+;Below
+;
+MSG_PG_SCRL_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_SCRL_FLAGS_UNDERSCORE_GAD
+_Podkreôlenie:
+;_Underscore:
+;
+MSG_PG_SCRL_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_SCRL_FLAGS_IMMEDIATE_GAD
+_Immediate:
+;_Immediate:
+;
+MSG_PG_SCRL_FLAGS_RELVERIFY_GAD
+_RelVerify:
+;_RelVerify:
+;
+MSG_PG_SCRL_VAR_TOP_GAD
+_Góra:
+;_Top:
+;
+MSG_PG_SCRL_VAR_TOTAL_GAD
+_Caîoôê:
+;T_otal:
+;
+MSG_PG_SCRL_VAR_VISIBLE_GAD
+_Widzialne:
+;_Visible:
+;
+MSG_PG_SCRL_VAR_FREEDOM_GAD
+_Poîoûenie:
+;_Freedom:
+;
+MSG_PG_SCRL_VAR_FREEDOM_L0_GAD
+Poziome
+;Horizontal
+;
+MSG_PG_SCRL_VAR_FREEDOM_L1_GAD
+Pionowe
+;Vertical
+;
+MSG_PG_SCRL_VAR_ARROWS_GAD
+
+;
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_GAD
+_Strzaîki:
+;_Arrows:
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_L0_GAD
+Brak
+;None
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_L1_GAD
+Normalne
+;Normal
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_L2_GAD
+Adaptacyjne
+;Adaptive
+;
+MSG_PG_SLIR_FLAGS_FORMAT_GAD
+_Format:
+;_Format:
+;
+MSG_PG_SLIR_FLAGS_MAXPIXELLEN_GAD
+MaksRozm_Pixeli:
+;Max_PixelLen:
+;
+MSG_PG_SLIR_FLAGS_MAXPIXELLEN_SET_GAD
+
+;
+;
+MSG_PG_SLIR_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_SLIR_FLAGS_UNDERSCORE_GAD
+_Podkreôlony:
+;_Underscore:
+;
+MSG_PG_SLIR_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_SLIR_FLAGS_IMMEDIATE_GAD
+_Immediate:
+;_Immediate:
+;
+MSG_PG_SLIR_FLAGS_RELVERIFY_GAD
+_RelVerify:
+;_RelVerify:
+;
+MSG_PG_SLIR_VAR_MIN_GAD
+_Min:
+;_Min:
+;
+MSG_PG_SLIR_VAR_MAX_GAD
+M_aks:
+;M_ax:
+;
+MSG_PG_SLIR_VAR_LEVEL_GAD
+_Poziom:
+;_Level:
+;
+MSG_PG_SLIR_VAR_MAXLEVLEN_GAD
+MaksDlugPoz:
+;MaxLe_vLen:
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_GAD
+_Justyfikacja:
+;_Justification:
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_L0_GAD
+Lewy
+;Left
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_L1_GAD
+Prawy
+;Right
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_L2_GAD
+Wycentrowany
+;Center
+;
+MSG_PG_SLIR_VAR_FREEDOM_GAD
+_Poîoûenie:
+;_Freedom:
+;
+MSG_PG_SLIR_VAR_FREEDOM_L0_GAD
+Poziome
+;Horizontal
+;
+MSG_PG_SLIR_VAR_FREEDOM_L1_GAD
+Pionowe
+;Vertical
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_GAD
+Poîoûenie Poz:
+;Level _Place:
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L0_GAD
+Lewy
+;Left
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L1_GAD
+Prawy
+;Right
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L2_GAD
+Powyûej
+;Above
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L3_GAD
+Poniûej
+;Below
+;
+MSG_PG_STRG_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_STRG_FLAGS_UNDERSCORE_GAD
+_Podkreôlony:
+;_Underscore:
+;
+MSG_PG_STRG_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_STRG_FLAGS_TABCYCLE_GAD
+_TabCycle:
+;_TabCycle:
+;
+MSG_PG_STRG_FLAGS_REPLACEMODE_GAD
+_Tryb zastëpowania:
+;_ReplaceMode:
+;
+MSG_PG_STRG_FLAGS_EXITHELP_GAD
+_WyjôcieHelp:
+;_ExitHelp:
+;
+MSG_PG_STRG_VAR_MAXCHARS_GAD
+MaksZnakow:
+;MaxChars:
+;
+MSG_PG_STRG_VAR_STRING_GAD
+_Tekst:
+;_String:
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_GAD
+_Justyfikacja:
+;_Justification:
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_L0_GAD
+Lewy
+;Left
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_L1_GAD
+Prawy
+;Right
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_L2_GAD
+Wycentrowany
+;Center
+;
+MSG_PG_TDEK_FLAGS_FRAMES_GAD
+_Ramki:
+;_Frames:
+;
+MSG_PG_TDEK_FLAGS_CURRENT_GAD
+_Aktualne:
+;_Current:
+;
+MSG_PG_TDEK_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_TDEK_FLAGS_TAPE_GAD
+_Taôma:
+;_Tape:
+;
+MSG_PG_TDEK_FLAGS_PAUSED_GAD
+_Pauza:
+;_Paused:
+;
+MSG_PG_TEXT_FLAGS_DISABLED_GAD
+_Wyîaczony:
+;_Disabled:
+;
+MSG_PG_TEXT_FLAGS_HIGHLABEL_GAD
+_Podôwietlony:
+;_Highlabel:
+;
+MSG_PG_TEXT_FLAGS_BORDER_GAD
+_Ramka:
+;_Border:
+;
+MSG_PG_TEXT_FLAGS_CLIPPED_GAD
+_Wyciëte:
+;_Clipped:
+;
+MSG_PG_TEXT_FLAGS_COPYTEXT_GAD
+K_opiujTekst:
+;C_opyText:
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_GAD
+_Justyfikacja:
+;_Justification:
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_L0_GAD
+Lewy
+;Left
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_L1_GAD
+Prawy
+;Right
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_L2_GAD
+Wycentrowany
+;Center
+;
+MSG_PG_TEXT_FLAGS_DEFAULT_GAD
+_Domyôlnie:
+;D_efault:
+;
+MSG_PG_TFLD_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_TFLD_FLAGS_TABCYCLE_GAD
+_TabCycle:
+;_TabCycle:
+;
+MSG_PG_TFLD_FLAGS_READONLY_GAD
+_Tylko odczyt:
+;_Read Only:
+;
+MSG_PG_TFLD_FLAGS_INVERTED_GAD
+_Odwrócony:
+;_Inverted:
+;
+MSG_PG_TFLD_FLAGS_PARTIAL_GAD
+_Czëôciowy:
+;_Partial:
+;
+MSG_PG_TFLD_FLAGS_BLOCKCURSOR_GAD
+_BlokowyKursor:
+;_BlockCursor
+;
+MSG_PG_TFLD_FLAGS_VCENTER_GAD
+Centrowanie_Pion:
+;_VCenter:
+;
+MSG_PG_TFLD_FLAGS_PASSCOMMAND_GAD
+Pass Command:
+;Pass Command:
+;
+MSG_PG_TFLD_FLAGS_CLIPBOARD_GAD
+_Schowek:
+;_Clipboard:
+;
+MSG_PG_TFLD_FLAGS_UNDO_GAD
+_Cofnij:
+;_Undo:
+;
+MSG_PG_TFLD_FLAGS_NONPRINTCHARS_GAD
+_NieDrukowaneZnaki:
+;_NonPrintChars:
+;
+MSG_PG_TFLD_FLAGS_MAXSIZEBEEP_GAD
+_MaksRozmMiga:
+;_Max Size Beep:
+;
+MSG_PG_TFLD_FLAGS_NOGHOST_GAD
+Brak Wygaszania:
+;No_Ghost:
+;
+MSG_PG_TFLD_FLAGS_MODIFIED_GAD
+M_odyfikowany:
+;M_odified:
+;
+MSG_PG_TFLD_FLAGS_USERALIGN_GAD
+_UûytkownikRówna:
+;_UserAlign:
+;
+MSG_PG_TFLD_FLAGS_RULEDPAPER_GAD
+_PapierZLiniami:
+;_RuledPaper:
+;
+MSG_PG_TFLD_FLAGS_BORDER_GAD
+_Ramka:
+;_Border:
+;
+MSG_PG_TFLD_FLAGS_BORDER_L0_GAD
+Brak
+;None
+;
+MSG_PG_TFLD_FLAGS_BORDER_L1_GAD
+Bevel
+;Bevel
+;
+MSG_PG_TFLD_FLAGS_BORDER_L2_GAD
+Podwójny Bevel
+;Double Bevel
+;
+MSG_PG_TFLD_FLAGS_ALIGN_GAD
+_Wyrównanie:
+;_Align:
+;
+MSG_PG_TFLD_FLAGS_ALIGN_L0_GAD
+Lewy
+;Left
+;
+MSG_PG_TFLD_FLAGS_ALIGN_L1_GAD
+Prawy
+;Right
+;
+MSG_PG_TFLD_FLAGS_ALIGN_L2_GAD
+Wycentrowany
+;Center
+;
+MSG_PG_TFLD_VAR_BLINKRATE_GAD
+_CzMigania:
+;_BlinkRate:
+;
+MSG_PG_TFLD_VAR_MAXSIZE_GAD
+_MaksRozmiar:
+;_MaxSize:
+;
+MSG_PG_TFLD_VAR_TABSPACES_GAD
+_RozmiarTab:
+;_TabSpaces:
+;
+MSG_PG_TFLD_VAR_SPACING_GAD
+_Odstëp:
+;_Spacing:
+;
+MSG_PG_TFLD_VAR_DELIMITERS_GAD
+_Odlimitowanie:
+;_Delimiters:
+;
+MSG_PG_TFLD_VAR_ACCEPTCHARS_GAD
+_AkceptujZnaki:
+;_AcceptChars:
+;
+MSG_PG_TFLD_VAR_REJECTCHARS_GAD
+_WyrzucZnaki:
+;_RejectChars:
+;
+MSG_Properties_WND
+Wîaôciwoôci
+;Properties
+;
+MSG_PROPERTIES_LOCK_GAD
+
+;
+;
+MSG_PROPERTIES_APPLY_GAD
+Z
+;A
+;
+MSG_PROPERTIES_PAGES_L0_GAD
+Gîówne
+;General
+;
+MSG_PROPERTIES_PAGES_L1_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L2_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L3_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L4_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L5_GAD
+Flagi
+;Lists
+;
+MSG_PROPERTIES_PAGES_L6_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L7_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L8_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L9_GAD
+Zmienne
+;Var.
+;
+MSG_PROPERTIES_PAGES_L10_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L11_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L12_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L13_GAD
+Gîówne
+;General
+;
+MSG_PROPERTIES_PAGES_L14_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L15_GAD
+Lista
+;Lists
+;
+MSG_PROPERTIES_PAGES_L16_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L17_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L18_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L19_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L20_GAD
+Zmienne
+;Var.
+;
+MSG_PROPERTIES_PAGES_L21_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L22_GAD
+Zmienne
+;Var.
+;
+MSG_PROPERTIES_PAGES_L23_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L24_GAD
+Zmienne
+;Var.
+;
+MSG_PROPERTIES_PAGES_L25_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L26_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L27_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L28_GAD
+Flagi2
+;Flags2
+;
+MSG_PROPERTIES_PAGES_L29_GAD
+Zmienne
+;Var.
+;
+MSG_PROPERTIES_PAGES_L30_GAD
+Gîówne
+;General
+;
+MSG_PROPERTIES_PAGES_L31_GAD
+Flagi1
+;Flags1
+;
+MSG_PROPERTIES_PAGES_L32_GAD
+Styl
+;Style
+;
+MSG_PROPERTIES_PAGES_L33_GAD
+Flagi2
+;Flags2
+;
+MSG_PROPERTIES_PAGES_L34_GAD
+Flagi3
+;Flags3
+;
+MSG_PROPERTIES_PAGES_L35_GAD
+Gîówne
+;General
+;
+MSG_PROPERTIES_PAGES_L36_GAD
+Gîówne
+;General
+;
+MSG_PROPERTIES_PAGES_L37_GAD
+
+;
+;
+MSG_PROPERTIES_PAGES_L38_GAD
+Element
+;Item
+;
+MSG_PROPERTIES_PAGES_L39_GAD
+Gîówne
+;General
+;
+MSG_PROPERTIES_PAGES_L40_GAD
+Flagi
+;Flags
+;
+MSG_PROPERTIES_PAGES_L41_GAD
+Gîówne
+;General
+;
+MSG_PROPERTIES_PAGES_L42_GAD
+Kolejnoôê tab
+;Tab Order
+;
+MSG_Edit_WND
+<bez nazwy>
+;<unnamed>
+;
+MSG_Preferences_WND
+Preferencje
+;Preferences
+;
+MSG_PREFS_SAVE_GAD
+_Zapisz
+;_Save
+;
+MSG_PREFS_USE_GAD
+_Uûyj
+;_Use
+;
+MSG_PREFS_CANCEL_GAD
+_Anuluj
+;_Cancel
+;
+MSG_PG_PREFS_GENERAL_AUTOBACKUP_GAD
+Kopia _Bezp.:
+;Auto_Backup:
+;
+MSG_PG_PREFS_GENERAL_SIZEZOOM_GAD
+S_ize zoom:
+;S_ize zoom:
+;
+MSG_PG_PREFS_GENERAL_FASTREDRAW_GAD
+_Szybkie rysowanie:
+;_Fast redraw:
+;
+MSG_PG_PREFS_GENERAL_GETSCREEN_GAD
+_Tryb Ekranu...
+;Screen _mode...
+;
+MSG_PG_PREFS_GENERAL_SCREENMODE_GAD
+
+;
+;
+MSG_PG_PREFS_GEN_LIST_GAD
+_Generatory:
+;_Generators:
+;
+MSG_PG_PREFS_GENERAL_FONTNAME_GAD
+
+;
+;
+MSG_PG_PREFS_GENERAL_EDITFONT_GAD
+Czcionka edytora...
+;Editor font...
+;
+MSG_Grid_WND
+Siatka
+;Grid
+;
+MSG_GRID_X_GAD
+Rozmiar _X:
+;_X Size:
+;
+MSG_GRID_Y_GAD
+Rozmiar _Y:
+;_Y Size:
+;
+MSG_GRID_SHOW_GAD
+_Pokaû siatkë:
+;_Show Grid:
+;
+MSG_GRID_SNAP_GAD
+P_rzyciâgaj:
+;S_nap To Grid:
+;
+MSG_GRID_OK_GAD
+_Zatwierdz
+;_Ok
+;
+MSG_GRID_CANCEL_GAD
+_Anuluj
+;_Cancel
+;
+MSG_PGWN_LABEL_GAD
+_Ident.:
+;_Label:
+;
+MSG_PGWN_X_GAD
+
+;
+;
+MSG_PGWN_Y_GAD
+
+;
+;
+MSG_PGWN_WIDTH_GAD
+
+;
+;
+MSG_PGWN_HEIGHT_GAD
+
+;
+;
+MSG_PGWN_INNERHEIGHT_GAD
+Wewn
+;Inner
+;
+MSG_PGWN_INNERWIDTH_GAD
+Wewn
+;Inner
+;
+MSG_PGWN_REL_H_GAD
+_Wysokoôê:
+;_Height:
+;
+MSG_PGWN_REL_H_L0_GAD
+Normalna
+;Normal
+;
+MSG_PGWN_REL_H_L1_GAD
+Ekran
+;Screen
+;
+MSG_PGWN_REL_W_GAD
+_Szer.:
+;_Width:
+;
+MSG_PGWN_REL_W_L0_GAD
+Normalna
+;Normal
+;
+MSG_PGWN_REL_W_L1_GAD
+Ekran
+;Screen
+;
+MSG_PGWN_REL_Y_GAD
+Poz _Y:
+;_Y Pos:
+;
+MSG_PGWN_REL_Y_L0_GAD
+Góra
+;Top
+;
+MSG_PGWN_REL_Y_L1_GAD
+Dóî
+;Bottom
+;
+MSG_PGWN_REL_Y_L2_GAD
+Centr.
+;Center
+;
+MSG_PGWN_REL_X_GAD
+Poz _X:
+;_X Pos:
+;
+MSG_PGWN_REL_X_L0_GAD
+Lewy
+;Left
+;
+MSG_PGWN_REL_X_L1_GAD
+Prawy
+;Right
+;
+MSG_PGWN_REL_X_L2_GAD
+Centr.
+;Center
+;
+MSG_PGWN_SCREEN_TITLE_GAD
+Tytuî _ekranu:
+;_Screen Title:
+;
+MSG_PGWN_WINDOW_TITLE_GAD
+Tytuî _okna:
+;_Window Title:
+;
+MSG_PGWN_PAGED_GAD
+_Stonicowany:
+;Pa_ged:
+;
+MSG_PGWN_FONTADAPTIVE_GAD
+_Adapt.czcionka:
+;_Font Adaptive:
+;
+MSG_PGWN_APPWINDOW_GAD
+_OknoApp:
+;_App Window:
+;
+MSG_PGWN_PROJECT_GAD
+_Projekt:
+;_Project:
+;
+MSG_PGWN_MENU_GET_GAD
+S
+;S
+;
+MSG_PGWN_MENU_GAD
+Menu:
+;Menu:
+;
+MSG_PGWN_ZOOM_GAD
+_Zoom:
+;_Zoom:
+;
+MSG_PGWN_BACKDROP_GAD
+B_ackdrop
+;B_ackdrop:
+;
+MSG_PGWN_BORDERLESS_GAD
+_Bez ramek:
+;_Borderless:
+;
+MSG_PGWN_SIZEBBOTTOM_GAD
+Marg. _Dolny:
+;Size B_Bottom:
+;
+MSG_PGWN_SIZEBRIGHT_GAD
+Marg. _Prawy:
+;Size B_Right:
+;
+MSG_PGWN_CLOSEGADGET_GAD
+Zamknij:
+;Close:
+;
+MSG_PGWN_DEPTHGADGET_GAD
+_Gîëbokoôê:
+;D_epth:
+;
+MSG_PGWN_SIZEGADGET_GAD
+_Rozmiar:
+;_Size:
+;
+MSG_PGWN_DRAGGADGET_GAD
+_Belka:
+;_Drag:
+;
+MSG_PGWN_DRAGGADGET_L0_GAD
+Brak
+;None
+;
+MSG_PGWN_DRAGGADGET_L1_GAD
+Normalne
+;Normal
+;
+MSG_PGWN_DRAGGADGET_L2_GAD
+Narz. Poz.
+;Tool Horz.
+;
+MSG_PGWN_DRAGGADGET_L3_GAD
+Narz. Pion.
+;Tool Vert.
+;
+MSG_PGWN_FALLBACK_GAD
+_FallBack:
+;_FallBack:
+;
+MSG_PGWN_REPORTMOUSE_GAD
+Report_Mouse:
+;Report_Mouse:
+;
+MSG_PGWN_AUTOADJUST_GAD
+A_utoAdjust:
+;A_utoAdjust:
+;
+MSG_PGWN_ACTIVATE_GAD
+_Aktywne
+;_Activate:
+;
+MSG_PGWN_RMBTRAP_GAD
+_RMBTrap
+;RMB_Trap:
+;
+MSG_PGWN_NEWLOOKMENUS_GAD
+N_owyWyglMenu:
+;N_ewLookMenus:
+;
+MSG_PGWN_NOCAREREFRESH_GAD
+_NoCareRefresh:
+;_NoCareRefresh:
+;
+MSG_PGWN_GZZ_GAD
+_GimmeZeroZero:
+;_GimmeZeroZero:
+;
+MSG_PGWN_REFRESH_GAD
+_Odôwieûanie:
+;_Refresh:
+;
+MSG_PGWN_REFRESH_L0_GAD
+Proste
+;Simple
+;
+MSG_PGWN_REFRESH_L1_GAD
+Zîoûone
+;Smart
+;
+MSG_PGWN_REFRESH_L2_GAD
+SuperBitmap
+;SuperBitmap
+;
+MSG_PGWN_MOUSEQUEUE_GAD
+_Mouse Queue:
+;_Mouse Queue:
+;
+MSG_PGWN_REPEATQUEUE_GAD
+_Repeat Queue:
+;_Repeat Queue:
+;
+MSG_PGWN_IDCMP_GAD
+Flagi _IDCMP...
+;_IDCMP Flags...
+;
+MSG_PGWN_REPEATQUEUE_SET_GAD
+
+;
+;
+MSG_PGWN_MOUSEQUEUE_SET_GAD
+
+;
+;
+MSG_PGWN_NOTIFYDEPTH_GAD
+_Notify Depth:
+;_Notify Depth:
+;
+MSG_PGWN_MENUHELP_GAD
+_Menu Help:
+;_Menu Help:
+;
+MSG_PGWN_POINTERDELAY_GAD
+_PointerDelay:
+;_PointerDelay:
+;
+MSG_WN_IDCMPFlags_WND
+Flagi IDCMP
+;IDCMP Flags
+;
+MSG_IDCMP_CANCEL_GAD
+_Anuluj
+;_Cancel
+;
+MSG_IDCMP_OK_GAD
+_Zatwierdú
+;_Ok
+;
+MSG_IDCMP_MENUPICK_GAD
+MenuPick:
+;MenuPick:
+;
+MSG_IDCMP_GADGETHELP_GAD
+GadgetHelp:
+;GadgetHelp:
+;
+MSG_IDCMP_MENUHELP_GAD
+MenuHelp:
+;MenuHelp:
+;
+MSG_IDCMP_IDCMPUPDATE_GAD
+IDCM_PUpdate:
+;IDCM_PUpdate:
+;
+MSG_IDCMP_DISKINSERTED_GAD
+Dis_kInserted:
+;Dis_kInserted:
+;
+MSG_IDCMP_DISKREMOVED_GAD
+_DiskRemoved:
+;_DiskRemoved:
+;
+MSG_IDCMP_INACTIVEWINDOW_GAD
+InActiveWin_dow:
+;InActiveWin_dow:
+;
+MSG_IDCMP_ACTIVEWINDOW_GAD
+Ac_tiveWindow:
+;Ac_tiveWindow:
+;
+MSG_IDCMP_INTUITICKS_GAD
+_IntuiTicks:
+;_IntuiTicks:
+;
+MSG_IDCMP_CLOSEWINDOW_GAD
+C_loseWindow:
+;C_loseWindow:
+;
+MSG_IDCMP_VANILLAKEY_GAD
+_VanillaKey:
+;_VanillaKey:
+;
+MSG_IDCMP_RAWKEY_GAD
+R_AWKey:
+;R_AWKey:
+;
+MSG_IDCMP_GADGETDOWN_GAD
+Gadget_Down:
+;Gadget_Down:
+;
+MSG_IDCMP_GADGETUP_GAD
+Gadget_Up:
+;Gadget_Up:
+;
+MSG_IDCMP_MOUSEBUTTONS_GAD
+Mouse_Buttons:
+;Mouse_Buttons:
+;
+MSG_IDCMP_NEWPREFS_GAD
+New_Prefs:
+;New_Prefs:
+;
+MSG_IDCMP_CHANGEWINDOW_GAD
+C_hangeWindow:
+;C_hangeWindow:
+;
+MSG_IDCMP_REFRESHWINDOW_GAD
+Re_freshWindow:
+;Re_freshWindow:
+;
+MSG_IDCMP_NEWSIZE_GAD
+_NewSize:
+;_NewSize:
+;
+MSG_IDCMP_REQCLEAR_GAD
+ReqCl_ear:
+;ReqCl_ear:
+;
+MSG_IDCMP_REQSET_GAD
+Req_Set:
+;Req_Set:
+;
+MSG_IDCMP_REQVERIFY_GAD
+_ReqVerify:
+;_ReqVerify:
+;
+MSG_IDCMP_SIZEVERIFY_GAD
+_SizeVerify:
+;_SizeVerify:
+;
+MSG_IDCMP_MENUVERIFY_GAD
+_MenuVerify:
+;_MenuVerify:
+;
+MSG_IDCMP_MOUSEMOVE_GAD
+MouseMove
+;MouseMove
+;
+MSG_IDCMP_DELTAMOVE_GAD
+DeltaMove
+;DeltaMove
+;
+MSG_PGMN_LABEL_GAD
+_Identyfikator:
+;_Label:
+;
+MSG_PGMN_NEWLOOK_GAD
+_Nowy Wyglâd:
+;_NewLook:
+;
+MSG_Working_WND
+
+;
+;
+MSG_WORK_PROGRESS_FORMAT_GAD
+%ld%%
+;%ld%%
+;
+MSG_PGFR_X_GAD
+Poz _X:
+;_X Pos:
+;
+MSG_PGFR_Y_GAD
+Poz _Y:
+;_Y Pos:
+;
+MSG_PGFR_WIDTH_GAD
+_Szer.:
+;_Width:
+;
+MSG_PGFR_HEIGHT_GAD
+_Wysokoôê:
+;_Height:
+;
+MSG_PGFR_FRAME_GAD
+_Ramka:
+;_Frame:
+;
+MSG_PGFR_FRAME_L0_GAD
+Przycisk:
+;Button
+;
+MSG_PGFR_FRAME_L1_GAD
+IconDropBox
+;IconDropBox
+;
+MSG_PGFR_FRAME_L2_GAD
+Ridge
+;Ridge
+;
+MSG_PGFR_FRAME_L3_GAD
+Linia Poz.
+;Horiz. Line
+;
+MSG_PGFR_FRAME_L4_GAD
+Linia Pion.
+;Vert. Line
+;
+MSG_PGFR_RECESSED_GAD
+_Odwrócone:
+;_Recessed:
+;
+MSG_EditMenu_WND
+
+;
+;
+MSG_EditImage_WND
+Edytuj Rysunek
+;Edit Image
+;
+MSG_List_WND
+Wybierz...
+;Select...
+;
+MSG_LIST_GAD
+
+;
+;
+MSG_PGMN_ITEM_LABEL_GAD
+_Identyfikator:
+;_Label:
+;
+MSG_PGMN_ITEM_TITLE_GAD
+_Tytuî:
+;_Title:
+;
+MSG_PGMN_ITEM_COMMKEY_GAD
+_Skrót:
+;Comm_Key:
+;
+MSG_PGMN_ITEM_POPUP_GAD
+_PopUp:
+;_PopUp:
+;
+MSG_PGMN_ITEM_BARLABEL_GAD
+_Odstëp:
+;_BarLabel:
+;
+MSG_PGMN_ITEM_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PGMN_ITEM_CHECKED_GAD
+_Zaznaczony:
+;_Checked:
+;
+MSG_PGMN_ITEM_TOGGLE_GAD
+Menu T_oggle:
+;Menu T_oggle:
+;
+MSG_PGPI_LABEL_GAD
+_Identyfikator:
+;_Label:
+;
+MSG_PGPI_WIDTH_GAD
+_S:
+;_W:
+;
+MSG_PGPI_HEIGHT_GAD
+_W:
+;_H:
+;
+MSG_PGPI_DEPTH_GAD
+_G:
+;_D:
+;
+MSG_PGPI_TYPE_GAD
+_Typ:
+;_Type:
+;
+MSG_PGPI_TYPE_L0_GAD
+Normalny
+;Normal image
+;
+MSG_PGPI_TYPE_L1_GAD
+Pasek narzëdzi
+;Toolbar image
+;
+MSG_PGPI_TYPE_L2_GAD
+Wskaúnik myszy
+;Pointer image
+;
+MSG_PGPI_SETPOINT_GAD
+_Ustaw wskaúnik
+;_Set Point
+;
+MSG_PGPI_PALETTE_GAD
+Edytuj _paletë...
+;Edit _Palette...
+;
+MSG_TBP_PALETTE_GAD
+
+;
+;
+MSG_Screen_WND
+Wîaôciwoôci ekranu
+;Screen Properties
+;
+MSG_SCREEN_PAGES_L0_GAD
+Gîówne
+;General
+;
+MSG_SCREEN_PAGES_L1_GAD
+Flagi
+;Flags
+;
+MSG_PGSCR_WIDTH_GAD
+_Szer.:
+;_Width:
+;
+MSG_PGSCR_HEIGHT_GAD
+_Wysokoôê:
+;_Height:
+;
+MSG_PGSCR_DEPTH_GAD
+_Gîëbokoôê:
+;_Depth:
+;
+MSG_PGSCR_TITLE_GAD
+_Tytuî:
+;_Title:
+;
+MSG_PGSCR_PUBNAME_GAD
+Nazwa _Publiczna:
+;_PubName:
+;
+MSG_PGSCR_USE_GAD
+_Uûyj
+;_Use:
+;
+MSG_PGSCR_USE_L0_GAD
+Workbench
+;Workbench
+;
+MSG_PGSCR_USE_L1_GAD
+Wîasny ekran
+;CustomScreen
+;
+MSG_PGSCR_USE_L2_GAD
+Ekran publiczny
+;PublicScreen
+;
+MSG_PGSCR_MAKEPUBLIC_GAD
+_Zrób publiczny:
+;_MakePublic:
+;
+MSG_PGSCR_MODEID_GAD
+Tryb:
+;ModeID:
+;
+MSG_PGSCR_MODEID_GET_GAD
+G
+;G
+;
+MSG_PGSCR_DEFAULTID_GAD
+
+;
+;
+MSG_PGSCR_SHOWTITLE_GAD
+_ShowTitle:
+;_ShowTitle:
+;
+MSG_PGSCR_BEHIND_GAD
+_Behind:
+;_Behind:
+;
+MSG_PGSCR_QUIET_GAD
+_Quiet:
+;_Quiet:
+;
+MSG_PGSCR_AUTOSCROLL_GAD
+_AutoScroll:
+;_AutoScroll:
+;
+MSG_PGSCR_FULLPALETTE_GAD
+_FullPalette:
+;_FullPalette:
+;
+MSG_PGSCR_DRAGGABLE_GAD
+_Draggable:
+;_Draggable:
+;
+MSG_PGSCR_EXCLUSIVE_GAD
+_Exclusive:
+;_Exclusive:
+;
+MSG_PGSCR_SHAREPENS_GAD
+S_harePens:
+;S_harePens:
+;
+MSG_PGSCR_INTERLEAVED_GAD
+_Interleaved:
+;_Interleaved:
+;
+MSG_PGSCR_LIKEWORKBENCH_GAD
+_Like Workbench:
+;_Like Workbench:
+;
+MSG_PGSCR_MINIMIZEISG_GAD
+_Minimize ISG:
+;_Minimize ISG:
+;
+MSG_EditString_WND
+Edytuj teksty
+;Edit Strings
+;
+MSG_PGSTR_STRINGS_FORMAT_GAD
+MSG ID|Typ|Tekst
+;MSG ID|Type|String
+;
+MSG_PGSTR_ADD_GAD
+_Dodaj
+;_Add
+;
+MSG_PGSTR_DELETE_GAD
+_Usuï
+;_Delete
+;
+MSG_PGSTR_EDIT_GAD
+_Edytuj
+;_Edit
+;
+MSG_PGSTR_LABEL_GAD
+_Identyfikator:
+;_Label:
+;
+MSG_PGSTR_STRING_GAD
+_Tekst:
+;_String:
+;
+MSG_EditVersion_WND
+Edytuj wersjë
+;Edit Version
+;
+MSG_PGVER_PROGRAMNAME_GAD
+Nazwa _programu:
+;_ProgramName:
+;
+MSG_PGVER_AUTHOR_GAD
+_Autor:
+;_Author:
+;
+MSG_PGVER_VERSION_GAD
+_Wersja:
+;_Version:
+;
+MSG_PGVER_DATE_GAD
+Data:
+;Date:
+;
+MSG_PGVER_REVISION_GAD
+_Wydanie:
+;_Revision:
+;
+MSG_PG_TRLV_FLAGS_COLUMNS_GAD
+_Kolumny:
+;_Columns:
+;
+MSG_PG_TRLV_FLAGS_FORMAT_GAD
+_Format:
+;_Format:
+;
+MSG_PG_TRLV_FLAGS_DISABLED_GAD
+_Wyîâczony:
+;_Disabled:
+;
+MSG_PG_TRLV_FLAGS_MULTISELECT_GAD
+_WieleZaznacz:
+;_MultiSelect:
+;
+MSG_PG_TRLV_FLAGS_BORDER_GAD
+_Ramka:
+;_Border:
+;
+MSG_PG_TRLV_FLAGS_READONLY_GAD
+_Tylko odczyt:
+;_ReadOnly:
+;
+MSG_PG_TRLV_FLAGS_SHOWTREELINES_GAD
+PokaûLinie_Drzewa:
+;Show_TreeLines:
+;
+MSG_PG_TRLV_FLAGS_SHOWSELECTED_GAD
+_PokaûZaznaczone:
+;_ShowSelected:
+;
+MSG_PG_TRLV_FLAGS_TREE_GAD
+Drz_ewo:
+;Tr_ee:
+;
+MSG_Object_WND
+Obiekty
+;Objects
+;
+MSG_EditPalette_WND
+Edytuj Paletë
+;Edit Palette
+;
+MSG_PAL_PALETTE_GAD
+
+;
+;
+MSG_PAL_GREEN_GAD
+
+;
+;
+MSG_PAL_GREEN_FORMAT_GAD
+Zielony: %3ld
+;Green: %3ld
+;
+MSG_PAL_BLUE_GAD
+
+;
+;
+MSG_PAL_BLUE_FORMAT_GAD
+Nieb: %3ld
+;Blue: %3ld
+;
+MSG_PAL_RED_GAD
+
+;
+;
+MSG_PAL_RED_FORMAT_GAD
+Czer: %3ld
+;Red: %3ld
+;
+MSG_PAL_CANCEL_GAD
+_Anuluj
+;_Cancel
+;
+MSG_PAL_OK_GAD
+_Zatwierdú
+;_Ok
+;
+MSG_PGWN_TABORDER_DOWN_GAD
+_Dóî
+;_Down
+;
+MSG_PGWN_TABORDER_UP_GAD
+_Góra
+;_Up
+;
+MSG_PGWN_TABORDER_LIST_GAD
+
+;
+;
+MSG_STATUS_CHANGED_GAD
+
+;
+;
+MSG_STATUS_TEXT_GAD
+
+;
+;
+MSG_CANTALLOCREQ
+Nie mogë zainicjalizowaê okna asl
+;Can't allocate asl requester
+;
+MSG_CANTALLOCOBJECT
+Nie mogë stworzyê obiektu
+;Can't create object
+;
+MSG_CANTOPENTOOLBAR
+Nie mogë otworzyê paska narzëdzi
+;Can't open toolbar window
+;
+MSG_CANTOPENOBJECTWINDOW
+Nie mogë otworzyê okna list obiektów
+;Can't open object list window
+;
+MSG_CANTOPENCLIPBOARD
+Nie mogë otworzyê schowka
+;Can't open clipboard
+;
+MSG_GAD_BUTTON
+Button
+;Button
+;
+MSG_GAD_CHECKBOX
+CheckBox
+;CheckBox
+;
+MSG_GAD_COLORWHEEL
+ColorWheel
+;ColorWheel
+;
+MSG_GAD_CYCLE
+Cycle
+;Cycle
+;
+MSG_GAD_DATATYPE
+Datatype
+;Datatype
+;
+MSG_GAD_GRADIENTSLIDER
+Gradientslider
+;Gradientslider
+;
+MSG_GAD_INTEGER
+Integer
+;Integer
+;
+MSG_GAD_LISTVIEW
+Listview
+;Listview
+;
+MSG_GAD_MX
+MX
+;MX
+;
+MSG_GAD_NUMBER
+Number
+;Number
+;
+MSG_GAD_PAGE
+Page
+;Page
+;
+MSG_GAD_PALETTE
+Palette
+;Palette
+;
+MSG_GAD_POPUPMENU
+PopupMenu
+;PopupMenu
+;
+MSG_GAD_PROGRESS
+Progress
+;Progress
+;
+MSG_GAD_SCROLLER
+Scroller
+;Scroller
+;
+MSG_GAD_SLIDER
+Slider
+;Slider
+;
+MSG_GAD_STRING
+String
+;String
+;
+MSG_GAD_TAPEDECK
+Tapedeck
+;Tapedeck
+;
+MSG_GAD_TEXT
+Text
+;Text
+;
+MSG_GAD_TEXTFIELD
+Textfield
+;Textfield
+;
+MSG_GAD_TREEVIEW
+TreeView
+;TreeView
+;
+MSG_NEW
+(nowy)
+;(new)
+;
+MSG_LOADING
+Wczytujë...
+;Loading...
+;
+MSG_SAVING
+Zapisujë...
+;Saving...
+;
+MSG_GENERATING
+Generujë...
+;Generating...
+;
+MSG_ABOUT
+GadToolsBox v%ld.%ld\n(tylko dla betatesterów)\n(c) 1996-98 by %s\n\nZarejestrowane na:\n%s\n%s\n\nNumer seryjny: %s
+;GadToolsBox v%ld.%ld\n(for betatesters only)\n(c) 1996-98 by %s\n\nRegistered to:\n%s\n%s\n\nSerialNr: %s
+;
+MSG_ERROPENLIB_GRADIENTSLIDER
+Nie mogë otworzyê gradientslider.gadget
+;Can't open gradientslider.gadget
+;
+MSG_NEWTITLE
+(nowe menu)
+;(new title)
+;
+MSG_NEWITEM
+(nowy element)
+;(new item)
+;
+MSG_NEWSUB
+(nowe podmenu)
+;(newsub)
+;
+MSG_CHANGEME
+<zmieï mnie>.%ld
+;<change me>.%ld
+;
+MSG_EDITSTR_STRING
+%s\tTekst\t%s
+;%s\tString\t%s
+;
+MSG_UNNAMED
+<bez nazwy>
+;<unnamed>
+;
+MSG_EMPTY
+<pusty>
+;<empty>
+;
+MSG_UNTITLED
+<bez nazwy>
+;<untitled>
+;
+MSG_UNKNOWN
+<nieznany>
+;<unknown>
+;
+MSG_OK
+Zatwierdú
+;Ok
+;
+MSG_ERROR
+Bîâd
+;Error
+;
+MSG_YOUNEEDNEWERVERSION
+Potrzebujesz GadToolsBoxa v%ld.%ld aby otworzyê ten projekt.
+;You need at least GadToolsBox v%ld.%ld to open this resource file.
+;
+MSG_ERRCREATEPROJECTPORT
+Nie mogë stworzyê portu IDCMP
+;Can't create IDCMP message port
+;
+MSG_ERRCREATEPOINTER
+Nie mogë stworzyê obiektu wskaúnika
+;Can't create pointer object
+;
+MSG_ERRCREATEIMAGE
+Nie mogë stworzyê obiektu obrazka
+;Can't create image object
+;
+MSG_PGDT_DTOBJ
+Obiekt DT
+;DT Obj
+;
+MSG_ERROPENLIB_COLORWHEEL
+Nie mogë otworzyê colorwheel.gadget
+;Can't open colorwheel.gadget
+;
+MSG_ALIGNLEFT
+Wyrównaj do lewej
+;Align to left
+;
+MSG_ALIGNHCENTER
+Wyrównaj do ôrodka szerokoôci
+;Align width center
+;
+MSG_ALIGNRIGHT
+Wyrównaj do prawej
+;Align to right
+;
+MSG_ALIGNTOP
+Wyrównaj do góry
+;Align to top
+;
+MSG_ALIGNVCENTER
+Wyrównaj do ôrodka wysokoôci
+;Align height center
+;
+MSG_ALIGNBOTTOM
+Wyrównaj do doîu
+;Align to bottom
+;
+MSG_SPREADHORIZ
+Rozmieôê w poziomie
+;Spread horizontal
+;
+MSG_SPREADVERT
+Rozmieôê w pionie
+;Spread vertical
+;
+MSG_FRAMEOBJECT
+Obiekt ramki
+;Frame object
+;
+MSG_GADGETOBJECT
+Obiekt gadûetu
+;Gadget object
+;
+MSG_WINDOWOBJECT
+Obiekt okna
+;Window object
+;
+MSG_IMAGEOBJECT
+Obiekt obrazka
+;Image object
+;
+MSG_STRINGOBJECT
+Obiekt tekstu
+;String object
+;
+MSG_NOOBJECT
+Nie ma wîaôciwoôci obiektu
+;No object properties
+;
+MSG_MENUOBJECT
+Obiekt menu
+;Menu object
+;
+MSG_CONFIRMATION
+Polecenie potwierdzenia
+;Confirmation Request
+;
+MSG_REPLACEFILE
+Plik %s juû wystepuje. Zastâpiê?
+;File %s already exists. Replace?
+;
+MSG_YESNO
+Tak|Nie
+;Yes|No
+;
+MSG_CANTOPENSTATUSWINDOW
+Nie mogë otworzyê okna statusu
+;Can't open status window
+;
+MSG_CANTOPENPROPERTIESWINDOW
+Nie mogë otworzyê okna wîaôciwoôci
+;Can't open properties window
+;
+MSG_STATUS_RESLOADED
+Projekt zostaî wczytany.
+;Resource file loaded.
+;
+MSG_STATUS_RESSAVED
+Projekt zostaî zapisany.
+;Resource file saved.
+;
+MSG_STATUS_MOVINGOBJECT
+Przesuwam obiekt...
+;Moving object...
+;
+MSG_STATUS_RESIZINGOBJECT
+Zmieniam wymiar obiektu...
+;Resizing object...
+;
+MSG_STATUS_RESGENERATED
+Kod úródîowy zostaî wygenerowany.
+;Source code generated.
+;
+MSG_STATUS_CREATINGOBJECT
+Tworzë obiekt...
+;Creating object...
+;
+MSG_STATUS_SELECTINGOBJECTS
+Zaznaczam obiekty...
+;Selecting objects...
+;
+MSG_ERROPENLIB_PAGE
+Nie mogë otworzyê page.gadget
+;Can't open page.gadget
+;
+MSG_ERROPENLIB_PROGRESS
+Nie mogë progress.gadget
+;Can't open progress.gadget
+;
+MSG_ERROPENLIB_TEXTFIELD
+Nie mogë textfield.gadget
+;Can't open textfield.gadget
+;
+MSG_ERROPENLIB_TREEVIEW
+Nie mogë listview.gadget
+;Can't open listview.gadget
+;
+MSG_ERROPENLIB_SMARTBITMAP
+Nie mogë superbitmap.image
+;Can't open smartbitmap.image
+;
+MSG_ERR_OPENSCREEN
+Nie mogë otworzyê ekranu
+;Can't open screen
+;
+MSG_ERR_VISUALINFO
+Nie mogë zainicjalizowaê informacje wizualne
+;Can't alloc visual info
+;
+MSG_ERR_SCRDRAWINFO
+Nie mogë zainicjalizowaê informacji rysowania
+;Can't alloc screen draw info
+;
+MSG_ERR_UNKNOWN
+Wystâpiî nieznany bîâd!
+;Unknown error occured!
+;
+MSG_ERROPENLIB_TAPEDECK
+Nie mogë otworzyê tapedeck.gadget
+;Can't open tapedeck.gadget
+;
+MSG_CANTCREATEPOPUPMENUS
+Nie mogë stworzyê menu podrëcznego
+;Can't create popup menus
+;
+MSG_ERROPENLIB_POPUPMENU
+Nie mogë otworzyê popupmenu.library
+;Can't open popupmenu.library
+;
+MSG_CANTCREATEPOPUPMENUCLASS
+Nie mogë stworczyc klasy popupmenu
+;Can't create popupmenu class
+;
+MSG_CANTCREATEDRAWCLASS
+Nie mogë stworzyê klasy rysowania
+;Can't create draw class
+;
+MSG_ABOUTUNREG
+GadToolsBox v%ld.%ld\n(tylko dla betatesterów)\n(c) 1996-98 by %s\n\nWersja niezarejestrowana\nProszë zarejestrowaê!\n
+;GadToolsBox v%ld.%ld\n(for betatesters only)\n(c) 1996-98 by %s\n\nUnregistered version\nPlease register!\n
+;
+MSG_SELECTPROJECTFILE
+Wybierz projekt do otwarcia...
+;Select project file to open...
+;
+MSG_SAVEPROJECTAS
+Zapisz projekt jako...
+;Save project as...
+;
+MSG_ENTERBASENAME
+Wpisz nazwë bazowâ do wygenerowania...
+;Enter base filename to generate...
+;
+MSG_NOTSAVED
+W projekcie %s byîy dokonane zmiany. Czy chcesz kontynuowaê?
+;Some changes has been made to project %s. Do You want to continue?
+;

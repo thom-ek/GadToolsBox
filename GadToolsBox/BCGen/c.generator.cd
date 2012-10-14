@@ -1,0 +1,30 @@
+;
+; c.generator locale description file
+;
+MSG_SCREENTITLE_SCR (//)
+
+;
+MSG_Prefs_WND (//)
+Prefs: c.generator
+;
+MSG_TEMPLATE_GAD (//)
+_Template:
+;
+MSG_GUIFUNCS_GAD (//)
+_GUI functions:
+;
+MSG_LOCALIZE_GAD (//)
+_Localize:
+;
+MSG_SAVE_GAD (//)
+_Save
+;
+MSG_CANCEL_GAD (//)
+_Cancel
+;
+MSG_USE_GAD (//)
+_Use
+;
+MSG_SCREEN_GAD (//)
+_Screen:
+;

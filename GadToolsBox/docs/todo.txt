@@ -1,0 +1,53 @@
+GadToolsBox TO DO list
+_______________________________________________________________________________
+
+GUI, Gadgets, main code:
+- palette editing for custom images
+
+Generators:
+- action for underlined gadgets
+- clean up the source code
+- AmigaE source code generator (Artur Pietruk)
+
+How to do?
+- relative gadtools gadgets
+
+Bugs:
+- on windows with tooldrag, depth, etc, doesn't move gadget positions (?????)
+- page boxes have incorrect offsets on nonstandard windows
+
+To do in next release:
+- AmigaGuide creator (interpret HELP messages)
+- ARexx creator (interpret AREXX messages, AREXX templates)
+- Commodities creator (interpret COMMODITIES mesages)
+_______________________________________________________________________________
+
+Done:
+- fix editing relative gadgets
+- clipping on menu edit window
+- tree in listview gadget
+- make resources selectable from tree list
+- listview - speeded up
+- popup menus
+- in listview.gadget there is drawed too much vertical lines at the end of list
+- speedup of draw gadget
+- fixed generating catalog sources in default directory instead of destination
+- properties lock gadget works now
+- draw gadget - edit in struct BitMap instead of table
+- pointer generator
+- mouse pointers on edit windows
+- added screenmode requester in preferences
+- updated menu Windows
+- windows positions are remembered
+- added font adaptivity
+- added scroll gadget in menu editor
+- listview.gadget - fixed columns view
+- done toolbar editing
+- done image editing
+- GetCatString() for pages
+- align gadgets
+- sorting gadgets
+- installer
+- shareware limitations
+- help file
+- palette for custom images

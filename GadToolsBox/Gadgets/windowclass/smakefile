@@ -1,0 +1,68 @@
+#
+# Makefile for GadToolsBox.lib by Tomasz Muszynski
+#
+
+all: gadtoolsbox.lib WndTest
+
+VERSION = 3
+REVISION = 0
+
+OPTIONS = 
+PUBSCREEN = SASPRJ.1
+
+WndTest: main.o gadtoolsbox.lib
+  slink <WITH <
+TO WndTest
+FROM lib:c.o main.o
+LIB lib:sc.lib lib:amiga.lib gadtoolsbox.lib
+NOICONS
+SD
+SC
+<
+#ND
+
+gadtoolsbox.lib: gadtoolsbox.o commodities.o messages.o window.o gadgets.o screen.o arexx.o amigaguide.o
+  oml gadtoolsbox.lib r window.o r commodities.o r messages.o r gadtoolsbox.o r gadgets.o r screen.o r arexx.o r amigaguide.o
+
+###########################
+# Dependences
+
+main.o: main.c
+  sc main.c
+gadtoolsbox.o: gadtoolsbox.c
+  sc gadtoolsbox.c
+messages.o: messages.c
+  sc messages.c
+window.o: window.c
+  sc window.c
+gadgets.o: gadgets.c
+  sc gadgets.c
+commodities.o: commodities.c
+  sc commodities.c
+screen.o: screen.c
+  sc screen.c
+arexx.o: arexx.c
+  sc arexx.c
+amigaguide.o: amigaguide.c
+  sc amigaguide.c
+
+###########################
+# Other
+
+# Run it
+run:
+  @-WndTest
+
+# debug it
+cpr:
+  @-cpr -screen $(PUBSCREEN) WndTest
+
+#open ProjectMan
+edit:
+  @-ProjectMan
+  @-ed main.c
+
+#install all libraries
+install:
+  @-copy gadtoolsbox.lib lib:
+  @-copy *.h include:gadtoolsbox

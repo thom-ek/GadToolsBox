@@ -1,0 +1,4 @@
+##base _SmartBitMapBase
+##bias 30
+GetSmartBitMapClass()
+##end

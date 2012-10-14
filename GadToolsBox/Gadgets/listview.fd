@@ -1,0 +1,17 @@
+##base _ListViewBase
+##bias 30
+GetListViewClass()
+Tree_NewList(list)(a0)
+Tree_AddTail(list,node)(a0,a1)
+Tree_AddHead(list,node)(a0,a1)
+Tree_AddSubTail(list,parent,node)(a0,a1,a2)
+Tree_NextNode(list)(a0)
+Tree_AddSubHead(list,parent,node)(a0,a1,a2)
+Tree_RemTail(list)(a0)
+Tree_RemHead(list)(a0)
+Tree_Remove(node)(a0)
+Tree_RemSubTail(node)(a0)
+Tree_RemSubHead(node)(a0)
+Tree_Insert(list,node,listNode)(a0,a1,a2)
+Tree_NextSubNode(list)(a0)
+##end

@@ -1,0 +1,89 @@
+#
+# Makefile for GadToolsBox by Tomasz Muszynski
+#
+
+all: GadToolsBox
+
+VERSION = 3
+REVISION = 0
+
+#OPTIONS = StripDebug
+OPTIONS = 
+PROGRAMNAME = GadToolsBox
+CATALOGLANG = Polski
+PUBSCREEN = SASPRJ.1
+GTPI = plugins/button.c plugins/checkbox.c plugins/cycle.c plugins/integer.c plugins/listview.c plugins/mx.c plugins/number.c plugins/palette.c plugins/scroller.c plugins/slider.c plugins/string.c plugins/text.c
+BOOPSIPI = plugins/colorwheel.c plugins/datatype.c plugins/gradientslider.c plugins/page.c plugins/popupmenu.c plugins/progress.c plugins/tapedeck.c plugins/textfield.c plugins/treeview.c
+OBJECTS = main.c amigaguide.c gadtools.c gadtools_cat.c gadtools_img.c guifunc.c objects.c window.c gadget.c frame.c menu.c inout.c toolbar.c image.c screen.c string.c version.c draw.c memory.a $(GTPI) $(BOOPSIPI)
+
+$(PROGRAMNAME): $(OBJECTS)
+  sc link $(OPTIONS) TO $(PROGRAMNAME) <WITH <
+$(OBJECTS)
+<
+
+###########################
+# Dependences
+
+main.o: main.c gadtools.h includes.h defines.h main.h
+amigaguide.o: amigaguide.c amigaguide.h
+gadtools.o: gadtools.c gadtools.h
+gadtools_cat.o: gadtools_cat.c gadtools_cat.h
+gadtools_img.o: gadtools_img.c
+image.o: image.c defines.h image.h
+gadget.o: gadget.c defines.h gadget.h
+window.o: window.c defines.h window.h
+guifunc.o: guifunc.c defines.h main.h
+frame.o: frame.c defines.h frame.h
+inout.o: inout.c defines.h inout.h
+menu.o: menu.c defines.h menu.h
+objects.o: objects.c defines.h objects.h
+toolbar.o: toolbar.c defines.h main.h
+image.o: image.c defines.h
+screen.o: screen.c defines.h screen.h
+string.o: string.c defines.h string.h
+version.o: version.c defines.h version.h
+draw.o: draw.c defines.h draw.h
+memory.o: memory.a memory.h
+
+button.o: plugins/button.c plugins/button.h
+number.o: plugins/number.c plugins/number.h
+integer.o: plugins/integer.c plugins/integer.h
+checkbox.o: plugins/checkbox.c plugins/checkbox.h
+progress.o: plugins/progress.c plugins/progress.h
+palette.o: plugins/palette.c plugins/palette.h
+text.o: plugins/text.c plugins/text.h
+textfield.o: plugins/textfield.c plugins/textfield.h
+treeview.o: plugins/treeview.c plugins/treeview.h
+tapedeck.o: plugins/tapedeck.c plugins/tapedeck.h
+colorwheel.o: plugins/colorwheel.c plugins/colorwheel.h
+page.o: plugins/page.c plugins/page.h
+scroller.o: plugins/scroller.c plugins/scroller.h
+string.o: plugins/string.c plugins/string.h
+slider.o: plugins/slider.c plugins/slider.h
+gradientslider.o: plugins/gradientslider.c plugins/gradientslider.h
+listview.o: plugins/listview.c plugins/listview.h
+cycle.o: plugins/cycle.c plugins/cycle.h
+mx.o: plugins/mx.c plugins/mx.h
+popupmenu.o: plugins/popupmenu.c plugins/popupmenu.h
+datatype.o: plugins/datatype.c plugins/datatype.h
+
+###########################
+# Other
+
+# Run it
+run:
+  @-$(PROGRAMNAME)
+
+# debug it
+cpr:
+  @-cpr -screen $(PUBSCREEN) $(PROGRAMNAME)
+
+#open ProjectMan
+edit:
+  @-ProjectMan
+  @-ed main.c
+
+catalog:
+  flexcat $(PROGRAMNAME).cd Catalogs/polski/$(PROGRAMNAME).ct CATALOG Catalogs/polski/$(PROGRAMNAME).catalog
+  @-copy Catalogs/$(CATALOGLANG)/$(PROGRAMNAME).catalog LOCALE:$(CATALOGLANG)
+  @-avail FLUSH >NIL:

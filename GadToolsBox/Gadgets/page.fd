@@ -1,0 +1,4 @@
+##base _PageBase
+##bias 30
+GetPageClass()
+##end

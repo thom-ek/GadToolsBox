@@ -1,0 +1,33 @@
+;
+; win32resource.generator locale description file
+;
+MSG_SCREENTITLE_SCR (//)
+
+;
+MSG_Prefs_WND (//)
+Prefs: win32resource.generator
+;
+MSG_SAVE_GAD (//)
+_Save
+;
+MSG_CANCEL_GAD (//)
+_Cancel
+;
+MSG_USE_GAD (//)
+_Use
+;
+MSG_LANGUAGE_GAD (//)
+Language:
+;
+MSG_LANGUAGE_L0_GAD (//)
+English UK
+;
+MSG_LANGUAGE_L1_GAD (//)
+English US
+;
+MSG_LANGUAGE_L2_GAD (//)
+Polish
+;
+MSG_CONVUNDERSCORES_GAD (//)
+Convert underscores:
+;

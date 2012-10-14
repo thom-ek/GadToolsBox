@@ -1,0 +1,25 @@
+	SECTION assembly,code
+
+	include "lvo/exec_lib.i"
+
+	XDEF _AllocVecPooled
+; void *AllocVecPooled(void *pool,ULONG size);
+_AllocVecPooled:
+	addq.l	#4,d0           ; Get space for tracking
+	move.l	d0,-(sp)        ; Save the size
+	jsr	_LVOAllocPooled(a6)     ; Call pool...
+	move.l	(sp)+,d1        ; Get size back...
+	tst.l	d0              ; Check for error
+	beq.s	avp_fail        ; If NULL, failed!
+	move.l	d0,a0           ; Get pointer...
+	move.l	d1,(a0)+        ; Store size
+	move.l	a0,d0           ; Get result
+avp_fail:	rts                     ; return
+
+	XDEF _FreeVecPooled
+; void FreeVecPooled(void *pool,void *memory);
+_FreeVecPooled:
+	move.l	-(a1),d0        ; Get size / ajust pointer
+	jmp	_LVOFreePooled(a6)
+
+	end

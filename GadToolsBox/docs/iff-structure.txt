@@ -1,0 +1,160 @@
+GadToolsBox 3 - IFF - super boski format pliku gadûtulsboksza v3 i 1/3!
+
+FORMGTBX (GadToolsBox)
+     |- GGUI - struct GUI_Store
+     |
+     |- SCRN /* Note: Only one screen for project */ - struct Node_Screen
+     |       
+<    |- WIND - struct Node_Window
+<<   |- BUTT - struct Node_Gadget + additional data (Button)
+<<   |- CBOX - struct Node_Gadget + additional data (CheckBox)
+<<   |- ...
+<<   |- FRME - struct Node_Frame
+     |
+<    |- MENU - struct Node_Menu + additional data
+     |
+<    |- PINT - struct Node_Pointer
+     |
+<    |- STRG - struct Node_Text + additional data
+     |
+     +- SVER - struct Node_Version
+
+---------------------
+
+Oto strukturka dla GUI_Store:
+
+struct GUI_Store
+{
+	UWORD gs_Grid[2];
+	BOOL gs_GridOn,gs_GridShow;
+	UBYTE gs_Mode;
+};
+
+---------------------
+
+Gadûety sâ zapisane w taki oto sposób:
+
+  struct Node_Gadget - takie sobie tam dane o gadûecie i inne bzdety
+
+  dalej w pëtelce zapisane sâ tagsy
+
+    UBYTE - Typ tagu:
+            - TAGTYPE_NONE - czyli brak danych do tagu
+            - TAGTYPE_NUMBER - dane typu ULONG
+            - TAGTYPE_TEXT - dane typu text
+            - TAGTYPE_LIST - dane typu lista danych
+
+    ULONG - Tag ID
+
+    TAGTYPE_NONE: nic
+    TAGTYPE_NUMBER:
+      ULONG - liczba typu long
+    TAGTYPE_TEXT:
+      ULONG - rozmiar tekstu
+      <size> - dane o dlugosci j/w
+    TAGTYPE_LIST:
+      ULONG - ilosc elementow w liscie
+      i w pëtelce dwie rzeczy
+        UWORD - dlusgosc stringu
+        <size> - string
+
+Tu sâ procedurki do czytania i zapisywania tagsów:
+
+LONG WriteTagItem(struct IFFHandle *iffh,struct TagItem *t,UBYTE type)
+{
+	LONG error=0;
+	struct Node *n;
+	int a;
+	ULONG ld;
+	UWORD wd;
+	UBYTE bd;
+
+	bd=type;
+	WriteChunkBytes(iffh,(APTR)&bd,1);
+	ld=t->ti_Tag;
+	WriteChunkBytes(iffh,(APTR)&ld,4);
+	switch(type)
+	{
+		case TAGTYPE_NONE:
+			break;
+		case TAGTYPE_NUMBER:
+			ld=t->ti_Data;
+			WriteChunkBytes(iffh,(APTR)&ld,4);
+			break;
+		case TAGTYPE_TEXT:
+			ld=strlen((char *)t->ti_Data)+1;
+			WriteChunkBytes(iffh,(APTR)&ld,4);
+			WriteChunkBytes(iffh,(APTR)t->ti_Data,ld);
+			break;
+		case TAGTYPE_LIST:
+			for(a=0,n=GetHead(List(t->ti_Data));GetSucc(n);a++,n=GetSucc(n));
+			ld=a;
+			WriteChunkBytes(iffh,(APTR)&ld,4);
+
+			for(n=GetHead(List(t->ti_Data));GetSucc(n);n=GetSucc(n))
+			{
+				wd=strlen(n->ln_Name)+1;
+				WriteChunkBytes(iffh,(APTR)&wd,2);
+				WriteChunkBytes(iffh,(APTR)n->ln_Name,strlen(n->ln_Name)+1);
+			}
+			break;
+	}
+	return error;
+}
+
+LONG ReadTagItem(struct IFFHandle *iffh,struct TagItem *t)
+{
+	UBYTE type;
+	UWORD l2;
+	ULONG len,a;
+	struct Node *n;
+
+	ReadChunkBytes(iffh,(APTR)&type,1);
+	ReadChunkBytes(iffh,(APTR)&t->ti_Tag,4);
+	switch(type)
+	{
+		case TAGTYPE_NONE:
+			break;
+		case TAGTYPE_NUMBER:
+			ReadChunkBytes(iffh,(APTR)(&t->ti_Data),4);
+			break;
+		case TAGTYPE_TEXT:
+			ReadChunkBytes(iffh,(APTR)&len,4);
+			t->ti_Data=(ULONG)AllocVec(len,MEMF_PUBLIC);
+			ReadChunkBytes(iffh,(APTR)t->ti_Data,len);
+			break;
+		case TAGTYPE_LIST:
+			t->ti_Data=(ULONG)AllocVec(sizeof(struct List),MEMF_PUBLIC);
+			NewList(List(t->ti_Data));
+			ReadChunkBytes(iffh,(APTR)&len,4);
+			for(a=0;a<len;a++)
+			{
+				ReadChunkBytes(iffh,(APTR)&l2,2);
+				n=AllocVec(sizeof(struct Node),MEMF_PUBLIC);
+				n->ln_Name=AllocVec(l2,MEMF_PUBLIC);
+				ReadChunkBytes(iffh,(APTR)n->ln_Name,l2);
+				AddTail(List(t->ti_Data),n);
+			}
+			break;
+	}
+	return 0;
+}
+
+---------------------
+
+Menu jest zapisane w taki oto boski(TM) sposób:
+
+  struct Node_Menu - znowu bzedy dot. menu
+
+  i dalej w pëtelce:
+    struct Node_MenuItem - tu znajdziesz odp. informacje dotyczâce title, item i sub
+
+---------------------
+
+A stringi sâ tak zapisane:
+
+  w pëtelce
+    ULONG - rozmiar labelu
+    <size> - label
+    ULONG - rozmiar stringu
+    <size> - string

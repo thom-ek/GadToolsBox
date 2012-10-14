@@ -1,0 +1,2073 @@
+;
+; GadToolsBox locale description file
+;
+MSG_MainProject_MTITLE (//)
+\000\000Project
+;
+MSG_MainProjectNew_MITEM (//)
+N\000New
+;
+MSG_MainProjectOpen_MITEM (//)
+O\000Open...
+;
+MSG_MainProjectSave_MITEM (//)
+S\000Save
+;
+MSG_MainProjectSaveAs_MITEM (//)
+A\000Save As...
+;
+MSG_MainProjectSaveSource_MITEM (//)
+W\000Save Source...
+;
+MSG_MainProjectPreferences_MITEM (//)
+P\000Preferences...
+;
+MSG_MainProjectAbout_MITEM (//)
+?\000About...
+;
+MSG_MainProjectQuit_MITEM (//)
+Q\000Quit
+;
+MSG_MainEdit_MTITLE (//)
+\000\000Edit
+;
+MSG_MainEditUndo_MITEM (//)
+U\000Undo
+;
+MSG_MainEditCut_MITEM (//)
+X\000Cut
+;
+MSG_MainEditCopy_MITEM (//)
+C\000Copy
+;
+MSG_MainEditPaste_MITEM (//)
+V\000Paste
+;
+MSG_MainEditClear_MITEM (//)
+B\000Clear
+;
+MSG_MainEditSelectAll_MITEM (//)
+A\000Select All
+;
+MSG_MainEditGrid_MITEM (//)
+G\000Grid...
+;
+MSG_MainEditAlign_MITEM (//)
+\000\000Align
+;
+MSG_MainEditAlignToLeft_MSUB (//)
+\000\000Left
+;
+MSG_MainEditAlignToHCenter_MSUB (//)
+\000\000Width center
+;
+MSG_MainEditAlignToRight_MSUB (//)
+\000\000Right
+;
+MSG_MainEditAlignToTop_MSUB (//)
+\000\000Top
+;
+MSG_MainEditAlignToVCenter_MSUB (//)
+\000\000Height center
+;
+MSG_MainEditAlignToBottom_MSUB (//)
+\000\000Bottom
+;
+MSG_MainEditClone_MITEM (//)
+\000\000Clone
+;
+MSG_MainEditCloneWidth_MSUB (//)
+\000\000Width
+;
+MSG_MainEditCloneHeight_MSUB (//)
+\000\000Height
+;
+MSG_MainEditCloneBoth_MSUB (//)
+\000\000Both
+;
+MSG_MainEditSpread_MITEM (//)
+\000\000Spread
+;
+MSG_MainEditSpreadHoriz_MSUB (//)
+\000\000Horizontal
+;
+MSG_MainEditSpreadVertical_MSUB (//)
+\000\000Vertical
+;
+MSG_MainObject_MTITLE (//)
+\000\000Objects
+;
+MSG_MainObjWindow_MITEM (//)
+\000\000Window
+;
+MSG_MainObjWindowNew_MSUB (//)
+\000\000New...
+;
+MSG_MainObjWindowClose_MSUB (//)
+\000\000Close
+;
+MSG_MainObjWindowDelete_MSUB (//)
+\000\000Delete
+;
+MSG_MainObjWindowRefresh_MSUB (//)
+R\000Refresh
+;
+MSG_MainObjMenu_MITEM (//)
+\000\000Menu
+;
+MSG_MainObjMenuNew_MSUB (//)
+\000\000New...
+;
+MSG_MainObjMenuClose_MSUB (//)
+\000\000Close
+;
+MSG_MainObjMenuDelete_MSUB (//)
+\000\000Delete
+;
+MSG_MainObjImage_MITEM (//)
+\000\000Image
+;
+MSG_MainObjImageNew_MSUB (//)
+\000\000New...
+;
+MSG_MainObjImageClose_MSUB (//)
+\000\000Close
+;
+MSG_MainObjImageDelete_MSUB (//)
+\000\000Delete
+;
+MSG_MainObjStrings_MITEM (//)
+\000\000Strings
+;
+MSG_MainObjStringsOpen_MSUB (//)
+\000\000Open
+;
+MSG_MainObjStringsClose_MSUB (//)
+\000\000Close
+;
+MSG_MainObjScreen_MITEM (//)
+\000\000Screen
+;
+MSG_MainObjScreenOpen_MSUB (//)
+\000\000Open
+;
+MSG_MainObjScreenClose_MSUB (//)
+\000\000Close
+;
+MSG_MainObjVersion_MITEM (//)
+\000\000Version
+;
+MSG_MainObjVersionOpen_MSUB (//)
+\000\000Open
+;
+MSG_MainObjVersionClose_MSUB (//)
+\000\000Close
+;
+MSG_MainWindow_MTITLE (//)
+\000\000Windows
+;
+MSG_MainWindowProperties_MITEM (//)
+\000\000Properties
+;
+MSG_MainWindowObjects_MITEM (//)
+\000\000Objects
+;
+MSG_MainWindowStatus_MITEM (//)
+\000\000Status
+;
+MSG_MainWindowHideAll_MITEM (//)
+\000\000Hide All
+;
+MSG_SCREENTITLE_SCR (//)
+GadToolsBox v3 (GTB.%ld)
+;
+MSG_PGBO_LABEL_GAD (//)
+_Label:
+;
+MSG_PGBO_X_GAD (//)
+
+;
+MSG_PGBO_Y_GAD (//)
+
+;
+MSG_PGBO_WIDTH_GAD (//)
+
+;
+MSG_PGBO_HEIGHT_GAD (//)
+
+;
+MSG_PGBO_REL_X_GAD (//)
+_X Pos:
+;
+MSG_PGBO_REL_X_L0_GAD (//)
+Left
+;
+MSG_PGBO_REL_X_L1_GAD (//)
+Right
+;
+MSG_PGBO_REL_Y_GAD (//)
+_Y Pos:
+;
+MSG_PGBO_REL_Y_L0_GAD (//)
+Top
+;
+MSG_PGBO_REL_Y_L1_GAD (//)
+Bottom
+;
+MSG_PGBO_REL_W_GAD (//)
+_Width:
+;
+MSG_PGBO_REL_W_L0_GAD (//)
+Normal
+;
+MSG_PGBO_REL_W_L1_GAD (//)
+Window
+;
+MSG_PGBO_REL_H_GAD (//)
+_Height:
+;
+MSG_PGBO_REL_H_L0_GAD (//)
+Normal
+;
+MSG_PGBO_REL_H_L1_GAD (//)
+Window
+;
+MSG_ABOUT_OK_GAD (//)
+Ok
+;
+MSG_PG_BUTT_FLAGS_IMMEDIATE_GAD (//)
+_Immediate:
+;
+MSG_PG_BUTT_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_BUTT_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_GAD (//)
+Title Type:
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_L0_GAD (//)
+Text
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_L1_GAD (//)
+Toolbar
+;
+MSG_PG_BUTT_FLAGS_TITLETYPE_L2_GAD (//)
+Image
+;
+MSG_PG_BUTT_FLAGS_TOGGLE_GAD (//)
+_Toggle:
+;
+MSG_PG_CBOX_FLAGS_SCALED_GAD (//)
+_Scaled:
+;
+MSG_PG_CBOX_FLAGS_SCALED_L0_GAD (//)
+None
+;
+MSG_PG_CBOX_FLAGS_SCALED_L1_GAD (//)
+Normal
+;
+MSG_PG_CBOX_FLAGS_SCALED_L2_GAD (//)
+Adaptive
+;
+MSG_PG_CBOX_FLAGS_CHECKED_GAD (//)
+_Checked:
+;
+MSG_PG_CBOX_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_CBOX_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_CBOX_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_CWHL_FLAGS_MAXPENS_GAD (//)
+MaxPens:
+;
+MSG_PG_CWHL_FLAGS_ABBRV_GAD (//)
+Abbrv:
+;
+MSG_PG_CWHL_FLAGS_GSLIDER_GAD (//)
+Grad-Slider:
+;
+MSG_PG_CWHL_FLAGS_BEVELBOX_GAD (//)
+BevelBox:
+;
+MSG_PG_CWHL_FLAGS_DISABLED_GAD (//)
+Disabled:
+;
+MSG_PG_CWHL_FLAGS_FOLLOWMOUSE_GAD (//)
+FollowMouse:
+;
+MSG_PG_CYCE_FLAGS_HIGHLABEL_GAD (//)
+Highlabel:
+;
+MSG_PG_CYCE_FLAGS_UNDERSCORE_GAD (//)
+Underscore:
+;
+MSG_PG_CYCE_FLAGS_DISABLED_GAD (//)
+Disabled:
+;
+MSG_PG_LISTS_EDIT_GAD (//)
+
+;
+MSG_PG_LISTS_ACTIVE_GAD (//)
+
+;
+MSG_PG_LISTS_LIST_GAD (//)
+
+;
+MSG_PG_LISTS_UP_GAD (//)
+_Up
+;
+MSG_PG_LISTS_DOWN_GAD (//)
+D_own
+;
+MSG_PG_LISTS_ADD_GAD (//)
+_Add
+;
+MSG_PG_LISTS_DEL_GAD (//)
+_Del
+;
+MSG_PG_DTYP_FLAGS_OBJECT_GAD (//)
+_File:
+;
+MSG_PG_DTYP_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_GRSL_FLAGS_KNOBPIXELS_GAD (//)
+_Knob Pixels:
+;
+MSG_PG_GRSL_FLAGS_MAXVAL_GAD (//)
+_MaxVal:
+;
+MSG_PG_GRSL_FLAGS_CURVAL_GAD (//)
+_CurVal:
+;
+MSG_PG_GRSL_FLAGS_SKIPVAL_GAD (//)
+_SkipVal:
+;
+MSG_PG_GRSL_FLAGS_PENS_GAD (//)
+_Pens:
+;
+MSG_PG_GRSL_FLAGS_FREEDOM_GAD (//)
+_Freedom:
+;
+MSG_PG_GRSL_FLAGS_FREEDOM_L0_GAD (//)
+Horizontal
+;
+MSG_PG_GRSL_FLAGS_FREEDOM_L1_GAD (//)
+Vertical
+;
+MSG_PG_GRSL_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_INTR_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_INTR_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_INTR_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_INTR_FLAGS_TABCYCLE_GAD (//)
+_TabCycle:
+;
+MSG_PG_INTR_FLAGS_REPLACEMODE_GAD (//)
+_ReplaceMode:
+;
+MSG_PG_INTR_FLAGS_EXITHELP_GAD (//)
+_ExitHelp:
+;
+MSG_PG_INTR_VAR_MAXCHARS_GAD (//)
+_MaxChars:
+;
+MSG_PG_INTR_VAR_NUMBER_GAD (//)
+_Number:
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_GAD (//)
+_Justification:
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_L0_GAD (//)
+Left
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_L1_GAD (//)
+Right
+;
+MSG_PG_INTR_VAR_JUSTIFICATION_L2_GAD (//)
+Center
+;
+MSG_PG_LVIE_FLAGS_ARROWS_GAD (//)
+_Arrows:
+;
+MSG_PG_LVIE_FLAGS_SPACING_GAD (//)
+S_pacing:
+;
+MSG_PG_LVIE_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_LVIE_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_LVIE_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_LVIE_FLAGS_READONLY_GAD (//)
+_ReadOnly:
+;
+MSG_PG_LVIE_FLAGS_SHOWSELECTED_GAD (//)
+_ShowSelected:
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_GAD (//)
+
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_L0_GAD (//)
+None
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_L1_GAD (//)
+Normal
+;
+MSG_PG_LVIE_FLAGS_ARROWS_SEL_L2_GAD (//)
+Adaptive
+;
+MSG_PG_MX_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_MX_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_MX_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_MX_FLAGS_SCALED_GAD (//)
+_Scaled:
+;
+MSG_PG_MX_FLAGS_SCALED_L0_GAD (//)
+None
+;
+MSG_PG_MX_FLAGS_SCALED_L1_GAD (//)
+Normal
+;
+MSG_PG_MX_FLAGS_SCALED_L2_GAD (//)
+Adaptive
+;
+MSG_PG_MX_FLAGS_PLACEMENT_GAD (//)
+_Placement:
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L0_GAD (//)
+Left
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L1_GAD (//)
+Right
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L2_GAD (//)
+Above
+;
+MSG_PG_MX_FLAGS_PLACEMENT_L3_GAD (//)
+Below
+;
+MSG_PG_MX_FLAGS_SPACING_GAD (//)
+Sp_acing:
+;
+MSG_PG_NUMB_FLAGS_FORMAT_GAD (//)
+_Format:
+;
+MSG_PG_NUMB_FLAGS_DEFAULT_GAD (//)
+D_efault:
+;
+MSG_PG_NUMB_FLAGS_MAXNUMLEN_GAD (//)
+_MaxNumLen:
+;
+MSG_PG_NUMB_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_NUMB_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_NUMB_FLAGS_BORDER_GAD (//)
+_Border:
+;
+MSG_PG_NUMB_FLAGS_CLIPPED_GAD (//)
+_Clipped:
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_GAD (//)
+_Justification:
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_L0_GAD (//)
+Left
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_L1_GAD (//)
+Right
+;
+MSG_PG_NUMB_FLAGS_JUSTIFICATION_L2_GAD (//)
+Center
+;
+MSG_PGGT_LABEL_GAD (//)
+_Label:
+;
+MSG_PGGT_TITLE_GAD (//)
+_Title:
+;
+MSG_PGGT_X_GAD (//)
+
+;
+MSG_PGGT_Y_GAD (//)
+
+;
+MSG_PGGT_WIDTH_GAD (//)
+
+;
+MSG_PGGT_HEIGHT_GAD (//)
+
+;
+MSG_PGGT_PLACEMENT_GAD (//)
+_Placement:
+;
+MSG_PGGT_PLACEMENT_L0_GAD (//)
+In
+;
+MSG_PGGT_PLACEMENT_L1_GAD (//)
+Left
+;
+MSG_PGGT_PLACEMENT_L2_GAD (//)
+Right
+;
+MSG_PGGT_PLACEMENT_L3_GAD (//)
+Above
+;
+MSG_PGGT_PLACEMENT_L4_GAD (//)
+Below
+;
+MSG_PGGT_REL_X_GAD (//)
+_X Pos:
+;
+MSG_PGGT_REL_X_L0_GAD (//)
+Left
+;
+MSG_PGGT_REL_X_L1_GAD (//)
+Right
+;
+MSG_PGGT_REL_Y_GAD (//)
+_Y Pos:
+;
+MSG_PGGT_REL_Y_L0_GAD (//)
+Top
+;
+MSG_PGGT_REL_Y_L1_GAD (//)
+Bottom
+;
+MSG_PGGT_REL_W_GAD (//)
+_Width:
+;
+MSG_PGGT_REL_W_L0_GAD (//)
+Normal
+;
+MSG_PGGT_REL_W_L1_GAD (//)
+Window
+;
+MSG_PGGT_REL_H_GAD (//)
+_Height:
+;
+MSG_PGGT_REL_H_L0_GAD (//)
+Normal
+;
+MSG_PGGT_REL_H_L1_GAD (//)
+Window
+;
+MSG_PG_PAGE_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_PAGE_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_GAD (//)
+_Layout:
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_L0_GAD (//)
+Simple
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_L1_GAD (//)
+MUI Style
+;
+MSG_PG_PAGE_FLAGS_LAYOUT_L2_GAD (//)
+GadTools
+;
+MSG_PG_PAGE_FLAGS_STYLE_GAD (//)
+_Style:
+;
+MSG_PG_PAGE_FLAGS_STYLE_L0_GAD (//)
+Normal
+;
+MSG_PG_PAGE_FLAGS_STYLE_L1_GAD (//)
+Hilight
+;
+MSG_PG_PAGE_FLAGS_STYLE_L2_GAD (//)
+Shadow
+;
+MSG_PG_PAGE_LISTS_LIST_GAD (//)
+
+;
+MSG_PG_PAGE_LISTS_ADD_GAD (//)
+< _Add
+;
+MSG_PG_PAGE_LISTS_DEL_GAD (//)
+> _Del
+;
+MSG_PG_PAGE_LISTS_UP_GAD (//)
+_Up
+;
+MSG_PG_PAGE_LISTS_DOWN_GAD (//)
+D_own
+;
+MSG_PG_PAGE_LISTS_WINDOWS_GAD (//)
+
+;
+MSG_PG_PAGE_LISTS_ACTIVE_GAD (//)
+
+;
+MSG_PG_PALT_FLAGS_COLOR_GAD (//)
+
+;
+MSG_PG_PALT_FLAGS_OFFSET_GAD (//)
+_Offset:
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_VAR_GAD (//)
+
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_GAD (//)
+:
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_L0_GAD (//)
+None
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_L1_GAD (//)
+Width
+;
+MSG_PG_PALT_FLAGS_SHOWSELECTED_L2_GAD (//)
+Height
+;
+MSG_PG_PALT_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_PALT_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_PALT_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_PALT_FLAGS_TYPE_GAD (//)
+:
+;
+MSG_PG_PALT_FLAGS_TYPE_L0_GAD (//)
+Depth
+;
+MSG_PG_PALT_FLAGS_TYPE_L1_GAD (//)
+Colors
+;
+MSG_PG_PALT_FLAGS_TYPE_L2_GAD (//)
+Screen
+;
+MSG_PG_PUPM_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_PUPM_FLAGS_NEWLOOK_GAD (//)
+_NewLook:
+;
+MSG_PG_PRGR_FLAGS_MAX_GAD (//)
+_Max:
+;
+MSG_PG_PRGR_FLAGS_CURRENT_GAD (//)
+_Current:
+;
+MSG_PG_PRGR_FLAGS_FORMAT_GAD (//)
+_Format:
+;
+MSG_PG_PRGR_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_PRGR_FLAGS_BORDER_GAD (//)
+_Border:
+;
+MSG_PG_PRGR_FLAGS_PERCENTS_GAD (//)
+Show in _%:
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_GAD (//)
+_Placement:
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L0_GAD (//)
+In
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L1_GAD (//)
+Left
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L2_GAD (//)
+Right
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L3_GAD (//)
+Above
+;
+MSG_PG_PRGR_FLAGS_PLACEMENT_L4_GAD (//)
+Below
+;
+MSG_PG_SCRL_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_SCRL_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_SCRL_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_SCRL_FLAGS_IMMEDIATE_GAD (//)
+_Immediate:
+;
+MSG_PG_SCRL_FLAGS_RELVERIFY_GAD (//)
+_RelVerify:
+;
+MSG_PG_SCRL_VAR_TOP_GAD (//)
+_Top:
+;
+MSG_PG_SCRL_VAR_TOTAL_GAD (//)
+T_otal:
+;
+MSG_PG_SCRL_VAR_VISIBLE_GAD (//)
+_Visible:
+;
+MSG_PG_SCRL_VAR_FREEDOM_GAD (//)
+_Freedom:
+;
+MSG_PG_SCRL_VAR_FREEDOM_L0_GAD (//)
+Horizontal
+;
+MSG_PG_SCRL_VAR_FREEDOM_L1_GAD (//)
+Vertical
+;
+MSG_PG_SCRL_VAR_ARROWS_GAD (//)
+
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_GAD (//)
+_Arrows:
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_L0_GAD (//)
+None
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_L1_GAD (//)
+Normal
+;
+MSG_PG_SCRL_VAR_ARROW_TYPE_L2_GAD (//)
+Adaptive
+;
+MSG_PG_SLIR_FLAGS_FORMAT_GAD (//)
+_Format:
+;
+MSG_PG_SLIR_FLAGS_MAXPIXELLEN_GAD (//)
+Max_PixelLen:
+;
+MSG_PG_SLIR_FLAGS_MAXPIXELLEN_SET_GAD (//)
+
+;
+MSG_PG_SLIR_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_SLIR_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_SLIR_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_SLIR_FLAGS_IMMEDIATE_GAD (//)
+_Immediate:
+;
+MSG_PG_SLIR_FLAGS_RELVERIFY_GAD (//)
+_RelVerify:
+;
+MSG_PG_SLIR_VAR_MIN_GAD (//)
+_Min:
+;
+MSG_PG_SLIR_VAR_MAX_GAD (//)
+M_ax:
+;
+MSG_PG_SLIR_VAR_LEVEL_GAD (//)
+_Level:
+;
+MSG_PG_SLIR_VAR_MAXLEVLEN_GAD (//)
+MaxLe_vLen:
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_GAD (//)
+_Justification:
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_L0_GAD (//)
+Left
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_L1_GAD (//)
+Right
+;
+MSG_PG_SLIR_VAR_JUSTIFICATION_L2_GAD (//)
+Center
+;
+MSG_PG_SLIR_VAR_FREEDOM_GAD (//)
+_Freedom:
+;
+MSG_PG_SLIR_VAR_FREEDOM_L0_GAD (//)
+Horizontal
+;
+MSG_PG_SLIR_VAR_FREEDOM_L1_GAD (//)
+Vertical
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_GAD (//)
+Level _Place:
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L0_GAD (//)
+Left
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L1_GAD (//)
+Right
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L2_GAD (//)
+Above
+;
+MSG_PG_SLIR_VAR_LEVELPLACE_L3_GAD (//)
+Below
+;
+MSG_PG_STRG_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_STRG_FLAGS_UNDERSCORE_GAD (//)
+_Underscore:
+;
+MSG_PG_STRG_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_STRG_FLAGS_TABCYCLE_GAD (//)
+_TabCycle:
+;
+MSG_PG_STRG_FLAGS_REPLACEMODE_GAD (//)
+_ReplaceMode:
+;
+MSG_PG_STRG_FLAGS_EXITHELP_GAD (//)
+_ExitHelp:
+;
+MSG_PG_STRG_VAR_MAXCHARS_GAD (//)
+MaxChars:
+;
+MSG_PG_STRG_VAR_STRING_GAD (//)
+_String:
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_GAD (//)
+_Justification:
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_L0_GAD (//)
+Left
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_L1_GAD (//)
+Right
+;
+MSG_PG_STRG_VAR_JUSTIFICATION_L2_GAD (//)
+Center
+;
+MSG_PG_TDEK_FLAGS_FRAMES_GAD (//)
+_Frames:
+;
+MSG_PG_TDEK_FLAGS_CURRENT_GAD (//)
+_Current:
+;
+MSG_PG_TDEK_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_TDEK_FLAGS_TAPE_GAD (//)
+_Tape:
+;
+MSG_PG_TDEK_FLAGS_PAUSED_GAD (//)
+_Paused:
+;
+MSG_PG_TEXT_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_TEXT_FLAGS_HIGHLABEL_GAD (//)
+_Highlabel:
+;
+MSG_PG_TEXT_FLAGS_BORDER_GAD (//)
+_Border:
+;
+MSG_PG_TEXT_FLAGS_CLIPPED_GAD (//)
+_Clipped:
+;
+MSG_PG_TEXT_FLAGS_COPYTEXT_GAD (//)
+C_opyText:
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_GAD (//)
+_Justification:
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_L0_GAD (//)
+Left
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_L1_GAD (//)
+Right
+;
+MSG_PG_TEXT_FLAGS_JUSTIFICATION_L2_GAD (//)
+Center
+;
+MSG_PG_TEXT_FLAGS_DEFAULT_GAD (//)
+D_efault:
+;
+MSG_PG_TFLD_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_TFLD_FLAGS_TABCYCLE_GAD (//)
+_TabCycle:
+;
+MSG_PG_TFLD_FLAGS_READONLY_GAD (//)
+_Read Only:
+;
+MSG_PG_TFLD_FLAGS_INVERTED_GAD (//)
+_Inverted:
+;
+MSG_PG_TFLD_FLAGS_PARTIAL_GAD (//)
+_Partial:
+;
+MSG_PG_TFLD_FLAGS_BLOCKCURSOR_GAD (//)
+_BlockCursor
+;
+MSG_PG_TFLD_FLAGS_VCENTER_GAD (//)
+_VCenter:
+;
+MSG_PG_TFLD_FLAGS_PASSCOMMAND_GAD (//)
+Pass Command:
+;
+MSG_PG_TFLD_FLAGS_CLIPBOARD_GAD (//)
+_Clipboard:
+;
+MSG_PG_TFLD_FLAGS_UNDO_GAD (//)
+_Undo:
+;
+MSG_PG_TFLD_FLAGS_NONPRINTCHARS_GAD (//)
+_NonPrintChars:
+;
+MSG_PG_TFLD_FLAGS_MAXSIZEBEEP_GAD (//)
+_Max Size Beep:
+;
+MSG_PG_TFLD_FLAGS_NOGHOST_GAD (//)
+No_Ghost:
+;
+MSG_PG_TFLD_FLAGS_MODIFIED_GAD (//)
+M_odified:
+;
+MSG_PG_TFLD_FLAGS_USERALIGN_GAD (//)
+_UserAlign:
+;
+MSG_PG_TFLD_FLAGS_RULEDPAPER_GAD (//)
+_RuledPaper:
+;
+MSG_PG_TFLD_FLAGS_BORDER_GAD (//)
+_Border:
+;
+MSG_PG_TFLD_FLAGS_BORDER_L0_GAD (//)
+None
+;
+MSG_PG_TFLD_FLAGS_BORDER_L1_GAD (//)
+Bevel
+;
+MSG_PG_TFLD_FLAGS_BORDER_L2_GAD (//)
+Double Bevel
+;
+MSG_PG_TFLD_FLAGS_ALIGN_GAD (//)
+_Align:
+;
+MSG_PG_TFLD_FLAGS_ALIGN_L0_GAD (//)
+Left
+;
+MSG_PG_TFLD_FLAGS_ALIGN_L1_GAD (//)
+Right
+;
+MSG_PG_TFLD_FLAGS_ALIGN_L2_GAD (//)
+Center
+;
+MSG_PG_TFLD_VAR_BLINKRATE_GAD (//)
+_BlinkRate:
+;
+MSG_PG_TFLD_VAR_MAXSIZE_GAD (//)
+_MaxSize:
+;
+MSG_PG_TFLD_VAR_TABSPACES_GAD (//)
+_TabSpaces:
+;
+MSG_PG_TFLD_VAR_SPACING_GAD (//)
+_Spacing:
+;
+MSG_PG_TFLD_VAR_DELIMITERS_GAD (//)
+_Delimiters:
+;
+MSG_PG_TFLD_VAR_ACCEPTCHARS_GAD (//)
+_AcceptChars:
+;
+MSG_PG_TFLD_VAR_REJECTCHARS_GAD (//)
+_RejectChars:
+;
+MSG_Properties_WND (//)
+Properties
+;
+MSG_PROPERTIES_LOCK_GAD (//)
+
+;
+MSG_PROPERTIES_APPLY_GAD (//)
+A
+;
+MSG_PROPERTIES_PAGES_L0_GAD (//)
+General
+;
+MSG_PROPERTIES_PAGES_L1_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L2_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L3_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L4_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L5_GAD (//)
+Lists
+;
+MSG_PROPERTIES_PAGES_L6_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L7_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L8_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L9_GAD (//)
+Var.
+;
+MSG_PROPERTIES_PAGES_L10_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L11_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L12_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L13_GAD (//)
+General
+;
+MSG_PROPERTIES_PAGES_L14_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L15_GAD (//)
+Lists
+;
+MSG_PROPERTIES_PAGES_L16_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L17_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L18_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L19_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L20_GAD (//)
+Var.
+;
+MSG_PROPERTIES_PAGES_L21_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L22_GAD (//)
+Var.
+;
+MSG_PROPERTIES_PAGES_L23_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L24_GAD (//)
+Var.
+;
+MSG_PROPERTIES_PAGES_L25_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L26_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L27_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L28_GAD (//)
+Flags2
+;
+MSG_PROPERTIES_PAGES_L29_GAD (//)
+Var.
+;
+MSG_PROPERTIES_PAGES_L30_GAD (//)
+General
+;
+MSG_PROPERTIES_PAGES_L31_GAD (//)
+Flags1
+;
+MSG_PROPERTIES_PAGES_L32_GAD (//)
+Style
+;
+MSG_PROPERTIES_PAGES_L33_GAD (//)
+Flags2
+;
+MSG_PROPERTIES_PAGES_L34_GAD (//)
+Flags3
+;
+MSG_PROPERTIES_PAGES_L35_GAD (//)
+General
+;
+MSG_PROPERTIES_PAGES_L36_GAD (//)
+General
+;
+MSG_PROPERTIES_PAGES_L37_GAD (//)
+
+;
+MSG_PROPERTIES_PAGES_L38_GAD (//)
+Item
+;
+MSG_PROPERTIES_PAGES_L39_GAD (//)
+General
+;
+MSG_PROPERTIES_PAGES_L40_GAD (//)
+Flags
+;
+MSG_PROPERTIES_PAGES_L41_GAD (//)
+General
+;
+MSG_PROPERTIES_PAGES_L42_GAD (//)
+Tab Order
+;
+MSG_Edit_WND (//)
+<unnamed>
+;
+MSG_Preferences_WND (//)
+Preferences
+;
+MSG_PREFS_SAVE_GAD (//)
+_Save
+;
+MSG_PREFS_USE_GAD (//)
+_Use
+;
+MSG_PREFS_CANCEL_GAD (//)
+_Cancel
+;
+MSG_PG_PREFS_GENERAL_AUTOBACKUP_GAD (//)
+Auto_Backup:
+;
+MSG_PG_PREFS_GENERAL_SIZEZOOM_GAD (//)
+S_ize zoom:
+;
+MSG_PG_PREFS_GENERAL_FASTREDRAW_GAD (//)
+_Fast redraw:
+;
+MSG_PG_PREFS_GENERAL_GETSCREEN_GAD (//)
+Screen _mode...
+;
+MSG_PG_PREFS_GENERAL_SCREENMODE_GAD (//)
+
+;
+MSG_PG_PREFS_GEN_LIST_GAD (//)
+_Generators:
+;
+MSG_PG_PREFS_GENERAL_FONTNAME_GAD (//)
+
+;
+MSG_PG_PREFS_GENERAL_EDITFONT_GAD (//)
+Editor _font...
+;
+MSG_Grid_WND (//)
+Grid
+;
+MSG_GRID_X_GAD (//)
+_X Size:
+;
+MSG_GRID_Y_GAD (//)
+_Y Size:
+;
+MSG_GRID_SHOW_GAD (//)
+_Show Grid:
+;
+MSG_GRID_SNAP_GAD (//)
+S_nap To Grid:
+;
+MSG_GRID_OK_GAD (//)
+_Ok
+;
+MSG_GRID_CANCEL_GAD (//)
+_Cancel
+;
+MSG_PGWN_LABEL_GAD (//)
+_Label:
+;
+MSG_PGWN_X_GAD (//)
+
+;
+MSG_PGWN_Y_GAD (//)
+
+;
+MSG_PGWN_WIDTH_GAD (//)
+
+;
+MSG_PGWN_HEIGHT_GAD (//)
+
+;
+MSG_PGWN_INNERHEIGHT_GAD (//)
+Inner
+;
+MSG_PGWN_INNERWIDTH_GAD (//)
+Inner
+;
+MSG_PGWN_REL_H_GAD (//)
+_Height:
+;
+MSG_PGWN_REL_H_L0_GAD (//)
+Normal
+;
+MSG_PGWN_REL_H_L1_GAD (//)
+Screen
+;
+MSG_PGWN_REL_W_GAD (//)
+_Width:
+;
+MSG_PGWN_REL_W_L0_GAD (//)
+Normal
+;
+MSG_PGWN_REL_W_L1_GAD (//)
+Screen
+;
+MSG_PGWN_REL_Y_GAD (//)
+_Y Pos:
+;
+MSG_PGWN_REL_Y_L0_GAD (//)
+Top
+;
+MSG_PGWN_REL_Y_L1_GAD (//)
+Bottom
+;
+MSG_PGWN_REL_Y_L2_GAD (//)
+Center
+;
+MSG_PGWN_REL_X_GAD (//)
+_X Pos:
+;
+MSG_PGWN_REL_X_L0_GAD (//)
+Left
+;
+MSG_PGWN_REL_X_L1_GAD (//)
+Right
+;
+MSG_PGWN_REL_X_L2_GAD (//)
+Center
+;
+MSG_PGWN_SCREEN_TITLE_GAD (//)
+_Screen Title:
+;
+MSG_PGWN_WINDOW_TITLE_GAD (//)
+_Window Title:
+;
+MSG_PGWN_PAGED_GAD (//)
+Pa_ged:
+;
+MSG_PGWN_FONTADAPTIVE_GAD (//)
+_Font Adaptive:
+;
+MSG_PGWN_APPWINDOW_GAD (//)
+_App Window:
+;
+MSG_PGWN_PROJECT_GAD (//)
+_Project:
+;
+MSG_PGWN_MENU_GET_GAD (//)
+S
+;
+MSG_PGWN_MENU_GAD (//)
+Menu:
+;
+MSG_PGWN_ZOOM_GAD (//)
+_Zoom:
+;
+MSG_PGWN_BACKDROP_GAD (//)
+B_ackdrop:
+;
+MSG_PGWN_BORDERLESS_GAD (//)
+_Borderless:
+;
+MSG_PGWN_SIZEBBOTTOM_GAD (//)
+Size B_Bottom:
+;
+MSG_PGWN_SIZEBRIGHT_GAD (//)
+Size B_Right:
+;
+MSG_PGWN_CLOSEGADGET_GAD (//)
+Close:
+;
+MSG_PGWN_DEPTHGADGET_GAD (//)
+D_epth:
+;
+MSG_PGWN_SIZEGADGET_GAD (//)
+_Size:
+;
+MSG_PGWN_DRAGGADGET_GAD (//)
+_Drag:
+;
+MSG_PGWN_DRAGGADGET_L0_GAD (//)
+None
+;
+MSG_PGWN_DRAGGADGET_L1_GAD (//)
+Normal
+;
+MSG_PGWN_DRAGGADGET_L2_GAD (//)
+Tool Horz.
+;
+MSG_PGWN_DRAGGADGET_L3_GAD (//)
+Tool Vert.
+;
+MSG_PGWN_FALLBACK_GAD (//)
+_FallBack:
+;
+MSG_PGWN_REPORTMOUSE_GAD (//)
+Report_Mouse:
+;
+MSG_PGWN_AUTOADJUST_GAD (//)
+A_utoAdjust:
+;
+MSG_PGWN_ACTIVATE_GAD (//)
+_Activate:
+;
+MSG_PGWN_RMBTRAP_GAD (//)
+RMB_Trap:
+;
+MSG_PGWN_NEWLOOKMENUS_GAD (//)
+N_ewLookMenus:
+;
+MSG_PGWN_NOCAREREFRESH_GAD (//)
+_NoCareRefresh:
+;
+MSG_PGWN_GZZ_GAD (//)
+_GimmeZeroZero:
+;
+MSG_PGWN_REFRESH_GAD (//)
+_Refresh:
+;
+MSG_PGWN_REFRESH_L0_GAD (//)
+Simple
+;
+MSG_PGWN_REFRESH_L1_GAD (//)
+Smart
+;
+MSG_PGWN_REFRESH_L2_GAD (//)
+SuperBitmap
+;
+MSG_PGWN_MOUSEQUEUE_GAD (//)
+_Mouse Queue:
+;
+MSG_PGWN_REPEATQUEUE_GAD (//)
+_Repeat Queue:
+;
+MSG_PGWN_IDCMP_GAD (//)
+_IDCMP Flags...
+;
+MSG_PGWN_REPEATQUEUE_SET_GAD (//)
+
+;
+MSG_PGWN_MOUSEQUEUE_SET_GAD (//)
+
+;
+MSG_PGWN_NOTIFYDEPTH_GAD (//)
+_Notify Depth:
+;
+MSG_PGWN_MENUHELP_GAD (//)
+_Menu Help:
+;
+MSG_PGWN_POINTERDELAY_GAD (//)
+_PointerDelay:
+;
+MSG_WN_IDCMPFlags_WND (//)
+IDCMP Flags
+;
+MSG_IDCMP_CANCEL_GAD (//)
+_Cancel
+;
+MSG_IDCMP_OK_GAD (//)
+_Ok
+;
+MSG_IDCMP_MENUPICK_GAD (//)
+MenuPick:
+;
+MSG_IDCMP_GADGETHELP_GAD (//)
+GadgetHelp:
+;
+MSG_IDCMP_MENUHELP_GAD (//)
+MenuHelp:
+;
+MSG_IDCMP_IDCMPUPDATE_GAD (//)
+IDCM_PUpdate:
+;
+MSG_IDCMP_DISKINSERTED_GAD (//)
+Dis_kInserted:
+;
+MSG_IDCMP_DISKREMOVED_GAD (//)
+_DiskRemoved:
+;
+MSG_IDCMP_INACTIVEWINDOW_GAD (//)
+InActiveWin_dow:
+;
+MSG_IDCMP_ACTIVEWINDOW_GAD (//)
+Ac_tiveWindow:
+;
+MSG_IDCMP_INTUITICKS_GAD (//)
+_IntuiTicks:
+;
+MSG_IDCMP_CLOSEWINDOW_GAD (//)
+C_loseWindow:
+;
+MSG_IDCMP_VANILLAKEY_GAD (//)
+_VanillaKey:
+;
+MSG_IDCMP_RAWKEY_GAD (//)
+R_AWKey:
+;
+MSG_IDCMP_GADGETDOWN_GAD (//)
+Gadget_Down:
+;
+MSG_IDCMP_GADGETUP_GAD (//)
+Gadget_Up:
+;
+MSG_IDCMP_MOUSEBUTTONS_GAD (//)
+Mouse_Buttons:
+;
+MSG_IDCMP_NEWPREFS_GAD (//)
+New_Prefs:
+;
+MSG_IDCMP_CHANGEWINDOW_GAD (//)
+C_hangeWindow:
+;
+MSG_IDCMP_REFRESHWINDOW_GAD (//)
+Re_freshWindow:
+;
+MSG_IDCMP_NEWSIZE_GAD (//)
+_NewSize:
+;
+MSG_IDCMP_REQCLEAR_GAD (//)
+ReqCl_ear:
+;
+MSG_IDCMP_REQSET_GAD (//)
+Req_Set:
+;
+MSG_IDCMP_REQVERIFY_GAD (//)
+_ReqVerify:
+;
+MSG_IDCMP_SIZEVERIFY_GAD (//)
+_SizeVerify:
+;
+MSG_IDCMP_MENUVERIFY_GAD (//)
+_MenuVerify:
+;
+MSG_IDCMP_MOUSEMOVE_GAD (//)
+MouseMove
+;
+MSG_IDCMP_DELTAMOVE_GAD (//)
+DeltaMove
+;
+MSG_PGMN_LABEL_GAD (//)
+_Label:
+;
+MSG_PGMN_NEWLOOK_GAD (//)
+_NewLook:
+;
+MSG_Working_WND (//)
+
+;
+MSG_WORK_PROGRESS_FORMAT_GAD (//)
+%ld%%
+;
+MSG_PGFR_X_GAD (//)
+_X Pos:
+;
+MSG_PGFR_Y_GAD (//)
+_Y Pos:
+;
+MSG_PGFR_WIDTH_GAD (//)
+_Width:
+;
+MSG_PGFR_HEIGHT_GAD (//)
+_Height:
+;
+MSG_PGFR_FRAME_GAD (//)
+_Frame:
+;
+MSG_PGFR_FRAME_L0_GAD (//)
+Button
+;
+MSG_PGFR_FRAME_L1_GAD (//)
+IconDropBox
+;
+MSG_PGFR_FRAME_L2_GAD (//)
+Ridge
+;
+MSG_PGFR_FRAME_L3_GAD (//)
+Horiz. Line
+;
+MSG_PGFR_FRAME_L4_GAD (//)
+Vert. Line
+;
+MSG_PGFR_RECESSED_GAD (//)
+_Recessed:
+;
+MSG_EditMenu_WND (//)
+
+;
+MSG_EditImage_WND (//)
+Edit Image
+;
+MSG_List_WND (//)
+Select...
+;
+MSG_LIST_GAD (//)
+
+;
+MSG_PGMN_ITEM_LABEL_GAD (//)
+_Label:
+;
+MSG_PGMN_ITEM_TITLE_GAD (//)
+_Title:
+;
+MSG_PGMN_ITEM_COMMKEY_GAD (//)
+Comm_Key:
+;
+MSG_PGMN_ITEM_POPUP_GAD (//)
+_PopUp:
+;
+MSG_PGMN_ITEM_BARLABEL_GAD (//)
+_BarLabel:
+;
+MSG_PGMN_ITEM_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PGMN_ITEM_CHECKED_GAD (//)
+_Checked:
+;
+MSG_PGMN_ITEM_TOGGLE_GAD (//)
+Menu T_oggle:
+;
+MSG_PGPI_LABEL_GAD (//)
+_Label:
+;
+MSG_PGPI_WIDTH_GAD (//)
+_W:
+;
+MSG_PGPI_HEIGHT_GAD (//)
+_H:
+;
+MSG_PGPI_DEPTH_GAD (//)
+_D:
+;
+MSG_PGPI_TYPE_GAD (//)
+_Type:
+;
+MSG_PGPI_TYPE_L0_GAD (//)
+Normal image
+;
+MSG_PGPI_TYPE_L1_GAD (//)
+Toolbar image
+;
+MSG_PGPI_TYPE_L2_GAD (//)
+Pointer image
+;
+MSG_PGPI_SETPOINT_GAD (//)
+_Set Point
+;
+MSG_PGPI_PALETTE_GAD (//)
+Edit _Palette...
+;
+MSG_TBP_PALETTE_GAD (//)
+
+;
+MSG_Screen_WND (//)
+Screen Properties
+;
+MSG_SCREEN_PAGES_L0_GAD (//)
+General
+;
+MSG_SCREEN_PAGES_L1_GAD (//)
+Flags
+;
+MSG_PGSCR_WIDTH_GAD (//)
+_Width:
+;
+MSG_PGSCR_HEIGHT_GAD (//)
+_Height:
+;
+MSG_PGSCR_DEPTH_GAD (//)
+_Depth:
+;
+MSG_PGSCR_TITLE_GAD (//)
+_Title:
+;
+MSG_PGSCR_PUBNAME_GAD (//)
+_PubName:
+;
+MSG_PGSCR_USE_GAD (//)
+_Use:
+;
+MSG_PGSCR_USE_L0_GAD (//)
+Workbench
+;
+MSG_PGSCR_USE_L1_GAD (//)
+CustomScreen
+;
+MSG_PGSCR_USE_L2_GAD (//)
+PublicScreen
+;
+MSG_PGSCR_MAKEPUBLIC_GAD (//)
+_MakePublic:
+;
+MSG_PGSCR_MODEID_GAD (//)
+ModeID:
+;
+MSG_PGSCR_MODEID_GET_GAD (//)
+G
+;
+MSG_PGSCR_DEFAULTID_GAD (//)
+
+;
+MSG_PGSCR_SHOWTITLE_GAD (//)
+_ShowTitle:
+;
+MSG_PGSCR_BEHIND_GAD (//)
+_Behind:
+;
+MSG_PGSCR_QUIET_GAD (//)
+_Quiet:
+;
+MSG_PGSCR_AUTOSCROLL_GAD (//)
+_AutoScroll:
+;
+MSG_PGSCR_FULLPALETTE_GAD (//)
+_FullPalette:
+;
+MSG_PGSCR_DRAGGABLE_GAD (//)
+_Draggable:
+;
+MSG_PGSCR_EXCLUSIVE_GAD (//)
+_Exclusive:
+;
+MSG_PGSCR_SHAREPENS_GAD (//)
+S_harePens:
+;
+MSG_PGSCR_INTERLEAVED_GAD (//)
+_Interleaved:
+;
+MSG_PGSCR_LIKEWORKBENCH_GAD (//)
+_Like Workbench:
+;
+MSG_PGSCR_MINIMIZEISG_GAD (//)
+_Minimize ISG:
+;
+MSG_EditString_WND (//)
+Edit Strings
+;
+MSG_PGSTR_STRINGS_FORMAT_GAD (//)
+b2MSG ID|b2Type|b2String
+;
+MSG_PGSTR_ADD_GAD (//)
+_Add
+;
+MSG_PGSTR_DELETE_GAD (//)
+_Delete
+;
+MSG_PGSTR_EDIT_GAD (//)
+_Edit
+;
+MSG_PGSTR_LABEL_GAD (//)
+_Label:
+;
+MSG_PGSTR_STRING_GAD (//)
+_String:
+;
+MSG_EditVersion_WND (//)
+Edit Version
+;
+MSG_PGVER_PROGRAMNAME_GAD (//)
+_ProgramName:
+;
+MSG_PGVER_AUTHOR_GAD (//)
+_Author:
+;
+MSG_PGVER_VERSION_GAD (//)
+_Version:
+;
+MSG_PGVER_DATE_GAD (//)
+Date:
+;
+MSG_PGVER_REVISION_GAD (//)
+_Revision:
+;
+MSG_PG_TRLV_FLAGS_COLUMNS_GAD (//)
+_Columns:
+;
+MSG_PG_TRLV_FLAGS_FORMAT_GAD (//)
+_Format:
+;
+MSG_PG_TRLV_FLAGS_DISABLED_GAD (//)
+_Disabled:
+;
+MSG_PG_TRLV_FLAGS_MULTISELECT_GAD (//)
+_MultiSelect:
+;
+MSG_PG_TRLV_FLAGS_BORDER_GAD (//)
+_Border:
+;
+MSG_PG_TRLV_FLAGS_READONLY_GAD (//)
+_ReadOnly:
+;
+MSG_PG_TRLV_FLAGS_SHOWTREELINES_GAD (//)
+Show_TreeLines:
+;
+MSG_PG_TRLV_FLAGS_SHOWSELECTED_GAD (//)
+_ShowSelected:
+;
+MSG_PG_TRLV_FLAGS_TREE_GAD (//)
+Tr_ee:
+;
+MSG_Object_WND (//)
+Objects
+;
+MSG_EditPalette_WND (//)
+Edit Palette
+;
+MSG_PAL_PALETTE_GAD (//)
+
+;
+MSG_PAL_GREEN_GAD (//)
+
+;
+MSG_PAL_GREEN_FORMAT_GAD (//)
+Green: %3ld
+;
+MSG_PAL_BLUE_GAD (//)
+
+;
+MSG_PAL_BLUE_FORMAT_GAD (//)
+Blue: %3ld
+;
+MSG_PAL_RED_GAD (//)
+
+;
+MSG_PAL_RED_FORMAT_GAD (//)
+Red: %3ld
+;
+MSG_PAL_CANCEL_GAD (//)
+_Cancel
+;
+MSG_PAL_OK_GAD (//)
+_Ok
+;
+MSG_PGWN_TABORDER_DOWN_GAD (//)
+_Down
+;
+MSG_PGWN_TABORDER_UP_GAD (//)
+_Up
+;
+MSG_PGWN_TABORDER_LIST_GAD (//)
+
+;
+MSG_STATUS_CHANGED_GAD (//)
+
+;
+MSG_STATUS_TEXT_GAD (//)
+
+;
+MSG_CANTALLOCREQ (//)
+Can't allocate asl requester
+;
+MSG_CANTALLOCOBJECT (//)
+Can't create object
+;
+MSG_CANTOPENTOOLBAR (//)
+Can't open toolbar window
+;
+MSG_CANTOPENOBJECTWINDOW (//)
+Can't open object list window
+;
+MSG_CANTOPENCLIPBOARD (//)
+Can't open clipboard
+;
+MSG_GAD_BUTTON (//)
+Button
+;
+MSG_GAD_CHECKBOX (//)
+CheckBox
+;
+MSG_GAD_COLORWHEEL (//)
+ColorWheel
+;
+MSG_GAD_CYCLE (//)
+Cycle
+;
+MSG_GAD_DATATYPE (//)
+Datatype
+;
+MSG_GAD_GRADIENTSLIDER (//)
+Gradientslider
+;
+MSG_GAD_INTEGER (//)
+Integer
+;
+MSG_GAD_LISTVIEW (//)
+Listview
+;
+MSG_GAD_MX (//)
+MX
+;
+MSG_GAD_NUMBER (//)
+Number
+;
+MSG_GAD_PAGE (//)
+Page
+;
+MSG_GAD_PALETTE (//)
+Palette
+;
+MSG_GAD_POPUPMENU (//)
+PopupMenu
+;
+MSG_GAD_PROGRESS (//)
+Progress
+;
+MSG_GAD_SCROLLER (//)
+Scroller
+;
+MSG_GAD_SLIDER (//)
+Slider
+;
+MSG_GAD_STRING (//)
+String
+;
+MSG_GAD_TAPEDECK (//)
+Tapedeck
+;
+MSG_GAD_TEXT (//)
+Text
+;
+MSG_GAD_TEXTFIELD (//)
+Textfield
+;
+MSG_GAD_TREEVIEW (//)
+TreeView
+;
+MSG_NEW (//)
+(new)
+;
+MSG_LOADING (//)
+Loading...
+;
+MSG_SAVING (//)
+Saving...
+;
+MSG_GENERATING (//)
+Generating...
+;
+MSG_ABOUT (//)
+GadToolsBox v%ld.%ld\n(c) 1996-98 by %s\n\nRegistered to:\n%s\n%s\n\nSerialNr: %s
+;
+MSG_ERROPENLIB_GRADIENTSLIDER (//)
+Can't open gradientslider.gadget
+;
+MSG_NEWTITLE (//)
+(new title)
+;
+MSG_NEWITEM (//)
+(new item)
+;
+MSG_NEWSUB (//)
+(new sub)
+;
+MSG_CHANGEME (//)
+<change me>.%ld
+;
+MSG_EDITSTR_STRING (//)
+%s\tString\t%s
+;
+MSG_UNNAMED (//)
+<unnamed>
+;
+MSG_EMPTY (//)
+<empty>
+;
+MSG_UNTITLED (//)
+<untitled>
+;
+MSG_UNKNOWN (//)
+<unknown>
+;
+MSG_OK (//)
+Ok
+;
+MSG_ERROR (//)
+Error
+;
+MSG_YOUNEEDNEWERVERSION (//)
+You need at least GadToolsBox v%ld.%ld to open this resource file.
+;
+MSG_ERRCREATEPROJECTPORT (//)
+Can't create IDCMP message port
+;
+MSG_ERRCREATEPOINTER (//)
+Can't create pointer object
+;
+MSG_ERRCREATEIMAGE (//)
+Can't create image object
+;
+MSG_PGDT_DTOBJ (//)
+DT Obj
+;
+MSG_ERROPENLIB_COLORWHEEL (//)
+Can't open colorwheel.gadget
+;
+MSG_ALIGNLEFT (//)
+Align to left
+;
+MSG_ALIGNHCENTER (//)
+Align width center
+;
+MSG_ALIGNRIGHT (//)
+Align to right
+;
+MSG_ALIGNTOP (//)
+Align to top
+;
+MSG_ALIGNVCENTER (//)
+Align height center
+;
+MSG_ALIGNBOTTOM (//)
+Align to bottom
+;
+MSG_SPREADHORIZ (//)
+Spread horizontal
+;
+MSG_SPREADVERT (//)
+Spread vertical
+;
+MSG_FRAMEOBJECT (//)
+Frame object
+;
+MSG_GADGETOBJECT (//)
+Gadget object
+;
+MSG_WINDOWOBJECT (//)
+Window object
+;
+MSG_IMAGEOBJECT (//)
+Image object
+;
+MSG_STRINGOBJECT (//)
+String object
+;
+MSG_NOOBJECT (//)
+No object properties
+;
+MSG_MENUOBJECT (//)
+Menu object
+;
+MSG_CONFIRMATION (//)
+Confirmation Request
+;
+MSG_REPLACEFILE (//)
+File %s already exists. Replace?
+;
+MSG_YESNO (//)
+Yes|No
+;
+MSG_CANTOPENSTATUSWINDOW (//)
+Can't open status window
+;
+MSG_CANTOPENPROPERTIESWINDOW (//)
+Can't open properties window
+;
+MSG_STATUS_RESLOADED (//)
+Resource file loaded.
+;
+MSG_STATUS_RESSAVED (//)
+Resource file saved.
+;
+MSG_STATUS_MOVINGOBJECT (//)
+Moving object...
+;
+MSG_STATUS_RESIZINGOBJECT (//)
+Resizing object...
+;
+MSG_STATUS_RESGENERATED (//)
+Source code generated.
+;
+MSG_STATUS_CREATINGOBJECT (//)
+Creating object...
+;
+MSG_STATUS_SELECTINGOBJECTS (//)
+Selecting objects...
+;
+MSG_ERROPENLIB_PAGE (//)
+Can't open page.gadget
+;
+MSG_ERROPENLIB_PROGRESS (//)
+Can't open progress.gadget
+;
+MSG_ERROPENLIB_TEXTFIELD (//)
+Can't open textfield.gadget
+;
+MSG_ERROPENLIB_TREEVIEW (//)
+Can't open listview.gadget
+;
+MSG_ERROPENLIB_SMARTBITMAP (//)
+Can't open smartbitmap.image
+;
+MSG_ERR_OPENSCREEN (//)
+Can't open screen
+;
+MSG_ERR_VISUALINFO (//)
+Can't alloc visual info
+;
+MSG_ERR_SCRDRAWINFO (//)
+Can't alloc screen draw info
+;
+MSG_ERR_UNKNOWN (//)
+Unknown error occured!
+;
+MSG_ERROPENLIB_TAPEDECK (//)
+Can't open tapedeck.gadget
+;
+MSG_CANTCREATEPOPUPMENUS (//)
+Can't create popup menus
+;
+MSG_ERROPENLIB_POPUPMENU (//)
+Can't open popupmenu.library
+;
+MSG_CANTCREATEPOPUPMENUCLASS (//)
+Can't create popupmenu class
+;
+MSG_CANTCREATEDRAWCLASS (//)
+Can't create draw class
+;
+MSG_ABOUTUNREG (//)
+GadToolsBox v%ld.%ld\n(c) 1996-98 by %s\n\nUnregistered version\nPlease register!\n
+;
+MSG_SELECTPROJECTFILE (//)
+Select project file to open...
+;
+MSG_SAVEPROJECTAS (//)
+Save project as...
+;
+MSG_ENTERBASENAME (//)
+Enter base filename to generate...
+;
+MSG_NOTSAVED (//)
+Project %s has been changed. Continue?
+;
